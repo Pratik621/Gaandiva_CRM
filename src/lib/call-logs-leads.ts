@@ -29,6 +29,25 @@ export function isCallLogsLeadsTarget(
   );
 }
 
+/**
+ * Demand & Qualification questions hidden for the Call Logs demo agent/campaign
+ * (matched by the start of the question text; case, punctuation and dashes ignored).
+ */
+const CALL_LOGS_HIDDEN_QUESTION_PREFIXES = [
+  "if you explore alternative options",
+  "follow up where do you see the most value",
+];
+
+const normalizeQuestionText = (text: string) =>
+  text.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+
+export function hideCallLogsDemoQuestions<T extends { label: string }>(questions: T[]): T[] {
+  return questions.filter((q) => {
+    const label = normalizeQuestionText(q.label);
+    return !CALL_LOGS_HIDDEN_QUESTION_PREFIXES.some((prefix) => label.startsWith(prefix));
+  });
+}
+
 /** Columns of public.leads in the Call Logs DB (supabase-call-logs/migrations). */
 const CALL_LOGS_LEAD_COLUMNS = new Set([
   "id", "lead_id", "organization_id", "campaign_id", "assigned_agent_id", "created_by",

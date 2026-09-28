@@ -13,6 +13,8 @@ import {
   normalizeTeamLeaderAssignments,
 } from "@/lib/campaign/team-leader-assignments";
 import { resolveUserDisplayNames } from "@/lib/campaign/team-leader-display";
+import { normalizeCampaignQuestions } from "@/lib/campaign-questions";
+import { hideCallLogsDemoQuestions, isCallLogsLeadsTarget } from "@/lib/call-logs-leads";
 
 export const dynamic = "force-dynamic";
 
@@ -160,6 +162,13 @@ export async function GET(
       metrics,
       MIS_DELIVERED_ACHIEVED_OPTIONS
     );
+
+    // Demo (agentone + Freshworks, see call-logs-leads.ts): hide selected DQI questions.
+    if (isCallLogsLeadsTarget(user.email, campaignId)) {
+      (enrichedCampaign as Record<string, unknown>).campaign_questions = hideCallLogsDemoQuestions(
+        normalizeCampaignQuestions((campaign as { campaign_questions?: unknown }).campaign_questions)
+      );
+    }
 
     return NextResponse.json({ campaign: enrichedCampaign, files: filesWithUrls });
   } catch (err) {
