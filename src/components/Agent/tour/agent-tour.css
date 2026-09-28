@@ -1,0 +1,188 @@
+.agent-tour-tooltip {
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #f0f0f0;
+  box-shadow: 0 12px 40px rgba(15, 23, 42, 0.18);
+  max-width: min(420px, calc(100vw - 32px));
+  padding: 20px 22px;
+  color: #1f2937;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    sans-serif;
+}
+
+.agent-tour-tooltip__progress {
+  font-size: 12px;
+  font-weight: 600;
+  color: #4f46e5;
+  letter-spacing: 0.02em;
+  margin-bottom: 10px;
+}
+
+.agent-tour-tooltip__title {
+  margin: 0 0 8px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #111827;
+  line-height: 1.3;
+}
+
+.agent-tour-tooltip__content {
+  font-size: 14px;
+  line-height: 1.55;
+  color: #4b5563;
+  margin-bottom: 18px;
+}
+
+.agent-tour-tooltip__actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.agent-tour-tooltip__actions-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: auto;
+}
+
+.agent-tour-tooltip__btn {
+  border-radius: 10px;
+  border: 1px solid transparent;
+  padding: 8px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.agent-tour-tooltip__btn--ghost {
+  background: #f9fafb;
+  border-color: #e5e7eb;
+  color: #374151;
+}
+
+.agent-tour-tooltip__btn--ghost:hover {
+  background: #f3f4f6;
+}
+
+.agent-tour-tooltip__btn--primary {
+  background: #4f46e5;
+  color: #ffffff;
+}
+
+.agent-tour-tooltip__btn--primary:hover {
+  background: #4338ca;
+}
+
+.agent-tour-welcome .ant-modal-content,
+.agent-tour-complete .ant-modal-content {
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.agent-tour-welcome__icon,
+.agent-tour-complete__icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  background: #eef2ff;
+  color: #4f46e5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+.agent-tour-complete__icon {
+  background: #f6ffed;
+  color: #52c41a;
+}
+
+.agent-tour-welcome__list,
+.agent-tour-complete__list {
+  margin: 16px 0 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.agent-tour-welcome__list li,
+.agent-tour-complete__list li {
+  position: relative;
+  padding-left: 22px;
+  margin-bottom: 8px;
+  color: #4b5563;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.agent-tour-welcome__list li::before,
+.agent-tour-complete__list li::before {
+  content: "•";
+  position: absolute;
+  left: 6px;
+  color: #4f46e5;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .agent-tour-tooltip {
+    padding: 16px 18px;
+  }
+
+  .agent-tour-tooltip__title {
+    font-size: 16px;
+  }
+
+  .agent-tour-tooltip__actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .agent-tour-tooltip__actions-right {
+    width: 100%;
+    justify-content: flex-end;
+  }
+}
+
+.agent-lead-tour-required-hint {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 16px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid #fecaca;
+  background: #fff5f5;
+  color: #9f1239;
+  font-size: 13px;
+  line-height: 1.5;
+  max-width: 100%;
+}
+
+.agent-lead-tour-required-hint__badge {
+  flex-shrink: 0;
+  width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  background: #fee2e2;
+  color: #dc2626;
+  font-weight: 700;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+/* Keep Joyride above Ant Design drawer and clear of scroll glitches */
+.react-joyride__overlay {
+  z-index: 10050 !important;
+}
+
+.react-joyride__spotlight {
+  border-radius: 10px !important;
+}

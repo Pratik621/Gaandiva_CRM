@@ -1,0 +1,12 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/expire-devices",
+      "schedule": "0 3 * * *"
+    },
+    {
+      "path": "/api/cron/simplified-sheet-sync",
+      "schedule": "*/30 * * * *"
+    }
+  ]
+}

@@ -1,0 +1,1256 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --crm-primary: #4f46e5;
+  --crm-success: #16a34a;
+  --crm-warning: #f59e0b;
+  --crm-error: #ef4444;
+
+  /* CRM WhatsApp chat module tokens (src/components/Chat) */
+  --green: #16a34a;
+  --bg: #ffffff;
+  --bg2: #f7f8fa;
+  --bg3: #f0f2f5;
+  --border: #e4e7ec;
+  --text: #101828;
+  --text2: #475467;
+  --text3: #98a2b3;
+  --danger: #ef4444;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+/* Isolate login page inputs from Ant Design global overrides */
+[data-login-card] input {
+  box-sizing: border-box !important;
+  max-width: 100% !important;
+}
+
+/* Login card header + workflow illustration (responsive) */
+.login-card-hero {
+  position: relative;
+  margin-bottom: -0.75rem;
+  min-height: 6.5rem;
+}
+
+@media (min-width: 480px) {
+  .login-card-hero {
+    margin-bottom: -1rem;
+    min-height: 7.25rem;
+  }
+}
+
+@media (min-width: 640px) {
+  .login-card-hero {
+    margin-bottom: -1.25rem;
+    min-height: 8.25rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .login-card-hero {
+    margin-bottom: -1.75rem;
+    min-height: 9.25rem;
+  }
+}
+
+.login-card-hero__art {
+  position: absolute;
+  top: 0;
+  right: -0.5rem;
+  bottom: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 80%;
+  max-width: 11.5rem;
+  pointer-events: none;
+  user-select: none;
+  z-index: 0;
+}
+
+@media (min-width: 480px) {
+  .login-card-hero__art {
+    right: -1rem;
+    width: 78%;
+    max-width: 13.5rem;
+  }
+}
+
+@media (min-width: 640px) {
+  .login-card-hero__art {
+    right: -1.5rem;
+    width: 75%;
+    max-width: 16.25rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .login-card-hero__art {
+    right: -2.5rem;
+    width: 72%;
+    max-width: 20rem;
+  }
+}
+
+.login-card-hero__art svg {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+.login-card-hero__text {
+  position: relative;
+  z-index: 10;
+  max-width: 72%;
+}
+
+@media (min-width: 480px) {
+  .login-card-hero__text {
+    max-width: 58%;
+  }
+}
+
+@media (min-width: 640px) {
+  .login-card-hero__text {
+    max-width: 15rem;
+  }
+}
+
+.login-card-hero__subtitle {
+  margin-top: 0.125rem;
+  font-size: 0.8125rem;
+  line-height: 1.35;
+  color: #64748b;
+}
+
+@media (min-width: 640px) {
+  .login-card-hero__subtitle {
+    font-size: 0.875rem;
+    white-space: nowrap;
+  }
+}
+
+/* Base table safety: prevent content overlap in any table cell */
+.ant-table-wrapper .ant-table-cell {
+  min-width: 0;
+  vertical-align: middle;
+}
+
+/* Table: show data in one line with safe clipping */
+.table-single-line .ant-table-cell {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.table-single-line thead .ant-table-cell {
+  white-space: nowrap;
+}
+
+/* Campaign leads tab: filters + actions on one row */
+.lead-panel-filters-row {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+  gap: 12px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 2px;
+}
+.lead-panel-filters-row__field {
+  flex: 0 0 auto;
+}
+.lead-panel-filters-row__search {
+  flex: 1 1 260px;
+  width: 260px;
+  max-width: 320px;
+  min-width: 200px;
+}
+.lead-panel-filters-row__channel {
+  width: 200px;
+  min-width: 160px;
+}
+.lead-panel-filters-row__date {
+  flex: 1 1 280px;
+  width: 280px;
+  max-width: 360px;
+  min-width: 240px;
+}
+.lead-panel-filters-row__actions {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 8px;
+  margin-left: auto;
+  white-space: nowrap;
+}
+.table-single-line .ant-table-cell > * {
+  min-width: 0;
+}
+
+/* Sortable headers: avoid title + sort icon overlap (table-single-line sets min-width: 0 on children) */
+.table-single-line th.ant-table-cell {
+  overflow: visible;
+  text-overflow: clip;
+}
+.table-single-line th.ant-table-cell .ant-table-column-sorters {
+  min-width: max-content;
+  overflow: visible;
+}
+.table-single-line th.ant-table-cell .ant-table-column-sorters > * {
+  min-width: auto;
+  flex-shrink: 0;
+}
+.table-single-line th.ant-table-cell.table-col-remaining-allocation {
+  min-width: 200px;
+}
+.table-single-line th.ant-table-cell.table-col-todays-leads {
+  min-width: 132px;
+}
+.table-single-line th.ant-table-cell.table-col-todays-leads .ant-table-column-title {
+  white-space: nowrap;
+}
+
+/* Delivery status select: soft green when Delivered */
+.delivery-status-select--delivered .ant-select-selector {
+  background-color: #e8f5e9 !important;
+  border-color: #a5d6a7 !important;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+.delivery-status-select--delivered .ant-select-selection-item {
+  color: #16a34a;
+  font-weight: 500;
+}
+.delivery-status-select--delivered:hover .ant-select-selector,
+.delivery-status-select--delivered.ant-select-focused .ant-select-selector {
+  background-color: #f1f8e9 !important;
+  border-color: #81c784 !important;
+}
+
+/* MIS / TL campaigns list: horizontal scroll on small screens */
+.mis-campaigns-table .ant-table-wrapper,
+.tl-campaigns-table .ant-table-wrapper {
+  width: 100%;
+  max-width: 100%;
+}
+.mis-campaigns-table .ant-table-content,
+.tl-campaigns-table .ant-table-content {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.mis-campaigns-table table,
+.tl-campaigns-table table {
+  table-layout: fixed;
+}
+/* Force ellipsis cells to respect column width (fixed layout) */
+.mis-campaigns-table .ant-table-cell-ellipsis,
+.tl-campaigns-table .ant-table-cell-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.mis-campaigns-table .ant-table-cell-ellipsis .ant-tooltip-open,
+.mis-campaigns-table .ant-table-cell-ellipsis > span,
+.tl-campaigns-table .ant-table-cell-ellipsis .ant-tooltip-open,
+.tl-campaigns-table .ant-table-cell-ellipsis > span {
+  display: block;
+  max-width: 100%;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.table-single-line td.table-col-campaign-name a.table-text-ellipsis,
+.table-single-line td.table-col-campaign-name .table-text-ellipsis {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Table text columns: prevent overlap with ellipsis */
+.table-single-line .table-text-ellipsis {
+  display: block;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/* Client code column: full code visible (overrides table-single-line ellipsis) */
+.table-single-line .ant-table-cell.table-cell-client-code {
+  white-space: nowrap;
+  overflow: visible;
+  text-overflow: clip;
+}
+
+/* Typography scale for dashboard */
+@layer components {
+  .page-title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+
+  .section-title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+
+  .table-header-text {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.4;
+  }
+
+  .body-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+
+  .small-text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.4;
+  }
+}
+
+/* Ensure Ant Design table headers match guide */
+.ant-table-thead > tr > th {
+  font-size: 14px;
+}
+
+/* Lead tables: display-only phone cells – prevent dialer extensions (e.g. Ringover) from making phone numbers clickable */
+.lead-phone-cell a,
+td:has(.lead-phone-cell) a {
+  pointer-events: none !important;
+  visibility: hidden !important;
+  display: none !important;
+}
+
+/* Pie charts: prevent labels from being cut off */
+.qa-status-pie-wrapper .recharts-wrapper,
+.qa-status-pie-wrapper .recharts-surface,
+.chart-pie-wrapper .recharts-wrapper,
+.chart-pie-wrapper .recharts-surface {
+  overflow: visible !important;
+}
+
+/* Edit Lead / Add Lead form: labels in grey */
+.lead-form .ant-form-item-label > label {
+  color: #6b7280 !important;
+}
+
+/* Campaign CQ: full-width stacked questions with wrapping labels */
+.lead-form .lead-campaign-cq-item .ant-form-item-label > label {
+  white-space: normal;
+  line-height: 1.5;
+  height: auto;
+}
+
+/* Lead ID column: keep copy icon visible (table cell must not clip it) */
+.ant-table-cell .lead-id-cell {
+  max-width: 100%;
+}
+.ant-table-cell .lead-id-copy-btn {
+  flex-shrink: 0;
+}
+
+/* Campaign ID column: keep copy icon visible */
+.ant-table-cell .campaign-id-cell {
+  max-width: 100%;
+}
+.ant-table-cell .campaign-id-cell .ant-btn {
+  flex-shrink: 0;
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+    --primary: 243 75% 59%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 9%;
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+    --accent: 0 0% 96.1%;
+    --accent-foreground: 0 0% 9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+    --ring: 0 0% 3.9%;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.5rem;
+  }
+  .dark {
+    --background: 0 0% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 243 75% 59%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 14.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 14.9%;
+    --muted-foreground: 0 0% 63.9%;
+    --accent: 0 0% 14.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 14.9%;
+    --input: 0 0% 14.9%;
+    --ring: 0 0% 83.1%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+/* Dashboard skeleton loaders */
+@keyframes dashboard-skeleton-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+/* ─── Ant Design pagination: fix Tailwind preflight breaking flex layout ─────
+   Tailwind base sets display:block on li/ul which collapses AntD pagination.  */
+.ant-pagination {
+  display: flex !important;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.ant-pagination.ant-pagination-mini {
+  gap: 2px;
+}
+.ant-pagination li,
+.ant-pagination .ant-pagination-item,
+.ant-pagination .ant-pagination-prev,
+.ant-pagination .ant-pagination-next,
+.ant-pagination .ant-pagination-jump-prev,
+.ant-pagination .ant-pagination-jump-next,
+.ant-pagination .ant-pagination-total-text,
+.ant-pagination .ant-pagination-options {
+  display: inline-flex !important;
+  align-items: center;
+  margin: 0;
+}
+.ant-pagination .ant-pagination-item a {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+/* Keep page-size dropdown ("10 / page") inline with the rest */
+.ant-pagination .ant-pagination-options {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 4px;
+}
+.ant-pagination .ant-pagination-options .ant-select {
+  display: inline-flex !important;
+}
+.ant-pagination .ant-pagination-options .ant-select .ant-select-selector {
+  display: flex !important;
+  align-items: center;
+}
+/* Table footer row that holds the pagination */
+.ant-table-pagination.ant-pagination {
+  display: flex !important;
+  justify-content: flex-end;
+  padding: 12px 16px;
+  margin: 0 !important;
+}
+/* Total text ("Total 12 leads") */
+.ant-pagination .ant-pagination-total-text {
+  margin-right: 8px;
+  white-space: nowrap;
+  line-height: 32px;
+  height: 32px;
+}
+/* Select dropdown portal: ensure it renders above table */
+.ant-select-dropdown {
+  z-index: 1050 !important;
+}
+
+/* Chat inbox list: thin scrollbar for full scrollport height */
+.crm-inbox-scroll {
+  overflow-y: scroll;
+  scrollbar-gutter: stable;
+  scrollbar-width: thin;
+  scrollbar-color: #cfd6e2 #f1f4f8;
+}
+.crm-inbox-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+.crm-inbox-scroll::-webkit-scrollbar-track {
+  background: #f1f4f8;
+  border-left: 1px solid #e8ecf2;
+}
+.crm-inbox-scroll::-webkit-scrollbar-thumb {
+  background-color: #cfd6e2;
+  border-radius: 100px;
+}
+.crm-inbox-scroll::-webkit-scrollbar-thumb:hover {
+  background-color: #b8c2d4;
+}
+
+/* Chat inbox rows: Tailwind preflight is disabled, so native <button> borders must be cleared. */
+button.crm-conversation-item {
+  -webkit-tap-highlight-color: transparent;
+}
+button.crm-conversation-item::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+button.crm-conversation-item:focus,
+button.crm-conversation-item:focus-visible {
+  outline: none;
+}
+
+/* Profile: assigned campaigns — prevent flex squashing on load more */
+.profile-assigned-campaigns-list {
+  width: 100%;
+}
+.profile-assigned-campaigns-list > div {
+  flex-shrink: 0;
+}
+.profile-assigned-campaigns-list .ant-tag {
+  margin-inline-end: 0;
+  height: auto;
+  min-height: 24px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+/* ── CRM app header (shared across all roles) ─────────────────────────── */
+.crm-header.ant-layout-header {
+  min-height: 64px;
+  padding: 0 24px;
+  margin: 0;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04), 0 2px 8px rgba(79,70,229,0.05);
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+  gap: 16px;
+  flex-shrink: 0;
+  z-index: 99;
+  overflow: visible;
+}
+
+.crm-header__search {
+  flex: 1;
+  min-width: 0;
+  max-width: 480px;
+  display: flex;
+  align-items: center;
+}
+
+/* True horizontal center of the header, independent of the (unequal)
+   search / actions widths on either side. */
+.crm-header__center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: min(36vw, 520px);
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+/* Small screens: not enough room between search and action icons. */
+@media (max-width: 991px) {
+  .crm-header__center {
+    display: none;
+  }
+}
+
+.crm-header__actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-shrink: 0;
+}
+.crm-header-icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background 0.15s ease;
+}
+
+.crm-header-icon-btn__inner {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #f3f4f6;
+  transition: background 0.15s ease;
+}
+
+.crm-header-icon-btn:hover .crm-header-icon-btn__inner {
+  background: #e5e7eb;
+}
+
+.crm-header__user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 12px 5px 5px;
+  margin: 0;
+  border: 1px solid #e5e7eb;
+  background: #f9fafb;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: background 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+  max-width: 220px;
+}
+
+.crm-header__user:hover:not(:disabled) {
+  background: #eef2ff;
+  border-color: #c7d2fe;
+  box-shadow: 0 2px 8px rgba(79,70,229,0.10);
+}
+
+.crm-header__user:focus-visible {
+  outline: 2px solid #4f46e5;
+  outline-offset: 2px;
+}
+
+.crm-header__user:disabled {
+  cursor: wait;
+  opacity: 0.7;
+}
+
+.crm-header__user-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 1.3;
+  min-width: 0;
+  text-align: left;
+}
+
+.crm-header__user-name {
+  font-family: "Inter Tight", "Inter", system-ui, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #111827;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 160px;
+}
+
+.crm-header__user-role {
+  font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 160px;
+}
+
+@media (max-width: 640px) {
+  .crm-header.ant-layout-header {
+    padding: 0 16px;
+  }
+
+  .crm-header__user-text {
+    display: none;
+  }
+
+  .crm-header__user {
+    padding: 4px;
+    max-width: none;
+  }
+}
+
+/* ── Shared sidebar rail (all roles) ───────────────────────────────────── */
+.crm-sidebar-sider .ant-layout-sider-children {
+  height: 100%;
+}
+
+.crm-sidebar-shell {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  padding: 12px 0;
+}
+
+.crm-sidebar-logo {
+  flex-shrink: 0;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.crm-sidebar-nav {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 8px;
+  padding-bottom: 16px;
+  gap: 2px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 100%;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0,0,0,0.12) transparent;
+}
+
+.crm-sidebar-nav::-webkit-scrollbar {
+  width: 4px;
+}
+
+.crm-sidebar-nav::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.crm-sidebar-nav::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,0.12);
+  border-radius: 4px;
+}
+
+.crm-sidebar-divider {
+  width: 48px;
+  height: 1px;
+  background: #f0f0f0;
+  flex-shrink: 0;
+  margin: 4px 0;
+}
+
+.rail-icon {
+  width: 38px;
+  height: 38px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+.rail-label {
+  font-size: 10px;
+  line-height: 1.15;
+  text-align: center;
+  width: 84px;
+  max-width: 84px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+
+/* Admin sidebar — legacy class alias (same as crm-sidebar-nav) */
+.admin-sidebar-sider .ant-layout-sider-children {
+  height: 100%;
+}
+
+.admin-sidebar-nav {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.18) transparent;
+}
+
+.admin-sidebar-nav::-webkit-scrollbar {
+  width: 4px;
+}
+
+.admin-sidebar-nav::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.admin-sidebar-nav::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.18);
+  border-radius: 4px;
+}
+
+.admin-sidebar-nav::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.28);
+}
+
+/* ── Shared sidebar rail hover animation (all role sidebars) ────────────── */
+.rail-item {
+  position: relative;
+}
+
+.rail-item .rail-icon {
+  transition: transform 0.22s cubic-bezier(0.34, 1.56, 0.64, 1),
+    box-shadow 0.22s ease, background 0.18s ease;
+  will-change: transform;
+}
+
+.rail-item .rail-label {
+  transition: color 0.2s ease, font-weight 0.2s ease;
+}
+
+.rail-item:hover .rail-icon {
+  transform: translateY(-2px) scale(1.08);
+  box-shadow: 0 6px 16px rgba(79,70,229,0.18) !important;
+}
+
+.rail-item:hover .rail-label {
+  color: #4f46e5 !important;
+}
+
+.rail-item:active .rail-icon {
+  transform: scale(0.94);
+  transition-duration: 0.1s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rail-item .rail-icon,
+  .rail-item .rail-label {
+    transition: none;
+  }
+  .rail-item:hover .rail-icon {
+    transform: none;
+  }
+}
+
+/* ── Design-system utilities (Refined Indigo / Calm SaaS) ──────────────── */
+/* Tabular numerals keep KPI digits aligned and jitter-free on refresh.     */
+.tnum {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum";
+}
+
+/* Display face for hero metrics / headings — paired with Inter for body.   */
+.font-display {
+  font-family: "Inter Tight", "Inter", system-ui, sans-serif;
+  letter-spacing: -0.02em;
+}
+
+/* Reusable elevated card with a calm hover lift (dashboards).              */
+.ds-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  will-change: transform;
+}
+.ds-card--hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 28px rgba(16, 24, 40, 0.1), 0 2px 8px rgba(16, 24, 40, 0.06);
+}
+
+/* Quiet hover for list rows (tasks, feeds) — bg is set inline, so override. */
+.ds-row-hover {
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+.ds-row-hover:hover {
+  background-color: #f9fafb !important;
+  border-color: #e5e7eb !important;
+}
+
+/* Magic UI BorderBeam — traveling highlight along a bordered container. */
+@keyframes border-beam {
+  100% {
+    offset-distance: 100%;
+  }
+}
+
+.border-beam {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  border-radius: inherit;
+  border: calc(var(--border-width, 1) * 1px) solid transparent;
+  mask-clip: padding-box, border-box;
+  -webkit-mask-clip: padding-box, border-box;
+  mask-composite: intersect;
+  -webkit-mask-composite: source-in;
+  mask-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+  -webkit-mask-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+}
+
+.border-beam::after {
+  content: "";
+  position: absolute;
+  aspect-ratio: 1;
+  width: calc(var(--size, 80) * 1px);
+  animation: border-beam var(--duration, 8s) linear infinite;
+  animation-delay: var(--delay, 0s);
+  background: linear-gradient(
+    to left,
+    var(--color-from, #94a3b8),
+    var(--color-to, #334155),
+    transparent
+  );
+  offset-anchor: 90% 50%;
+  offset-path: rect(0 auto auto 0 round var(--beam-round, 80px));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .border-beam::after {
+    animation: none !important;
+  }
+}
+
+/* Executive Summary — smooth traveling border (works without offset-path). */
+.report-summary-beam-shell {
+  position: relative;
+  border-radius: 14px;
+  padding: 2px;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.report-summary-beam-shell::before {
+  content: "";
+  position: absolute;
+  inset: -120%;
+  background: conic-gradient(
+    from 0deg,
+    transparent 0deg 300deg,
+    #a5b4fc 315deg,
+    #4f46e5 330deg,
+    #818cf8 345deg,
+    transparent 360deg
+  );
+  animation: report-summary-beam-rotate 5s linear infinite;
+}
+
+@keyframes report-summary-beam-rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.report-summary-beam-shell > .ant-card {
+  position: relative;
+  z-index: 1;
+  border: none !important;
+  margin: 0 !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .report-summary-beam-shell::before {
+    animation: none;
+    inset: 0;
+    background: linear-gradient(135deg, #818cf8, #4f46e5);
+  }
+}
+
+/* Soft entrance for dashboard sections.                                    */
+@keyframes ds-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.ds-fade-in {
+  animation: ds-fade-in 0.4s ease both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ds-card,
+  .ds-fade-in {
+    transition: none;
+    animation: none;
+  }
+  .ds-card--hover:hover {
+    transform: none;
+  }
+}
+
+/* ─── Feed Launch Button icon animation ──────────────────────────────────── */
+@keyframes feed-icon-bounce {
+  0%, 100% { transform: translateY(0) scale(1);   }
+  30%       { transform: translateY(-3px) scale(1.15); }
+  60%       { transform: translateY(1px) scale(0.95);  }
+}
+
+.feed-btn-icon {
+  display: inline-flex;
+  animation: feed-icon-bounce 2.8s ease-in-out infinite;
+  transform-origin: center;
+}
+
+.feed-float-wrap {
+  position: fixed;
+  right: 48px;
+  bottom: 32px;
+  z-index: 900;
+}
+
+.feed-float-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  height: 52px;
+  padding: 0 22px;
+  border: none;
+  border-radius: 26px;
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+  cursor: pointer;
+  box-shadow: 0 4px 18px rgba(79, 70, 229, 0.38);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+}
+
+.feed-float-pill:hover {
+  background: linear-gradient(135deg, #4338ca, #6366f1);
+  box-shadow: 0 6px 22px rgba(79, 70, 229, 0.48);
+  transform: translateY(-2px);
+}
+
+.feed-float-pill:active {
+  transform: translateY(0);
+}
+
+.feed-float-pill__icon {
+  display: inline-flex;
+  align-items: center;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.feed-float-pill__label {
+  line-height: 1;
+}
+
+.feed-float-wrap .ant-badge-count {
+  box-shadow: 0 0 0 2px #fff;
+}
+
+/* ─── Campaign Feed Chat Widget (Instagram-style) ─────────────────────────── */
+.feed-chat-widget {
+  position: fixed;
+  right: 48px;
+  bottom: 32px;
+  z-index: 950;
+  width: 392px;
+  max-width: calc(100vw - 32px);
+  height: min(560px, calc(100vh - 120px));
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 16px;
+  border: 1px solid #e5e7eb;
+  box-shadow:
+    0 12px 40px rgba(15, 23, 42, 0.14),
+    0 2px 8px rgba(15, 23, 42, 0.06);
+  overflow: hidden;
+}
+
+.feed-chat-widget__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 14px;
+  border-bottom: 1px solid #f0f0f0;
+  background: #fff;
+  flex-shrink: 0;
+}
+
+.feed-chat-widget__header-main {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+  flex: 1;
+}
+
+.feed-chat-widget__avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  flex-shrink: 0;
+}
+
+.feed-chat-widget__title-wrap {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.feed-chat-widget__title {
+  display: block;
+  font-size: 14px;
+  line-height: 1.2;
+  max-width: 220px;
+}
+
+.feed-chat-widget__subtitle {
+  font-size: 11px;
+  line-height: 1.2;
+}
+
+.feed-chat-widget__header-actions {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  flex-shrink: 0;
+}
+
+.feed-chat-widget__icon-btn {
+  color: #374151 !important;
+}
+
+.feed-chat-widget__icon-btn:hover {
+  background: #f3f4f6 !important;
+}
+
+.feed-chat-widget__body {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+}
+
+.feed-chat-widget__scroll {
+  padding: 8px 12px 0 !important;
+}
+
+.feed-chat-widget__scroll .ant-card {
+  border-radius: 12px !important;
+  margin-bottom: 10px !important;
+}
+
+.feed-chat-widget__body .feed-chat-widget__composer {
+  padding: 8px 12px 12px;
+}
+
+/* ─── Tiptap Rich Text Editor ─────────────────────────────────────────────── */
+
+/* Placeholder via Tiptap Placeholder extension */
+.tiptap p.is-editor-empty:first-child::before {
+  content: attr(data-placeholder);
+  float: left;
+  color: #bfbfbf;
+  pointer-events: none;
+  height: 0;
+}
+
+/* Base editor typography */
+.tiptap { outline: none; }
+.tiptap > * + * { margin-top: 4px; }
+.tiptap p { margin: 0; line-height: 1.6; }
+.tiptap strong { font-weight: 600; }
+.tiptap em { font-style: italic; }
+.tiptap s { text-decoration: line-through; }
+.tiptap ul, .tiptap ol { padding-left: 1.4em; margin: 4px 0; }
+.tiptap li { margin: 2px 0; }
+.tiptap li p { margin: 0; }
+.tiptap a { color: #4f46e5; text-decoration: underline; }
+.tiptap a:hover { opacity: 0.75; }
+.tiptap blockquote {
+  border-left: 3px solid #e5e7eb;
+  padding-left: 12px;
+  color: #6b7280;
+  margin: 4px 0;
+}
+.tiptap code {
+  background: #f3f4f6;
+  border-radius: 4px;
+  padding: 1px 5px;
+  font-size: 0.875em;
+  font-family: ui-monospace, monospace;
+}
+
+/* Toolbar active state */
+.tiptap-toolbar-btn.is-active {
+  background: #eff6ff !important;
+  color: #2563eb !important;
+}
+
+/* Rich content display (post view) */
+.feed-rich-content { font-size: 14px; line-height: 1.6; color: inherit; }
+.feed-rich-content > * + * { margin-top: 4px; }
+.feed-rich-content p { margin: 0; }
+.feed-rich-content strong { font-weight: 600; }
+.feed-rich-content em { font-style: italic; }
+.feed-rich-content s { text-decoration: line-through; }
+.feed-rich-content ul,
+.feed-rich-content ol { padding-left: 1.4em; margin: 4px 0; }
+.feed-rich-content li { margin: 2px 0; }
+.feed-rich-content a { color: #4f46e5; text-decoration: underline; word-break: break-all; }
+.feed-rich-content blockquote {
+  border-left: 3px solid #e5e7eb;
+  padding-left: 12px;
+  color: #6b7280;
+  margin: 4px 0;
+}
+.feed-rich-content code {
+  background: #f3f4f6;
+  border-radius: 4px;
+  padding: 1px 5px;
+  font-size: 0.875em;
+  font-family: ui-monospace, monospace;
+}
+.feed-mention-tag {
+  display: inline;
+  background: #dbeafe;
+  color: #1d4ed8;
+  border-radius: 4px;
+  padding: 0 3px;
+  font-weight: 500;
+}

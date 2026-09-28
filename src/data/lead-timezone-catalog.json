@@ -1,0 +1,4182 @@
+[
+  {
+    "country": "Afghanistan",
+    "iso2": "AF",
+    "cityRegion": "Kabul",
+    "usStates": "",
+    "ianaTimezone": "Asia/Kabul",
+    "windowsTimezone": "Afghanistan Standard Time",
+    "utcOffset": "UTC+04:30",
+    "searchKeywords": "Afghanistan, AF, Kabul"
+  },
+  {
+    "country": "Åland Islands",
+    "iso2": "AX",
+    "cityRegion": "Mariehamn",
+    "usStates": "",
+    "ianaTimezone": "Europe/Mariehamn",
+    "windowsTimezone": "FLE Standard Time",
+    "utcOffset": "UTC+03:00",
+    "searchKeywords": "Åland Islands, AX, Mariehamn"
+  },
+  {
+    "country": "Albania",
+    "iso2": "AL",
+    "cityRegion": "Tirane",
+    "usStates": "",
+    "ianaTimezone": "Europe/Tirane",
+    "windowsTimezone": "Central Europe Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Albania, AL, Tirane"
+  },
+  {
+    "country": "Algeria",
+    "iso2": "DZ",
+    "cityRegion": "Algiers",
+    "usStates": "",
+    "ianaTimezone": "Africa/Algiers",
+    "windowsTimezone": "W. Central Africa Standard Time",
+    "utcOffset": "UTC+01:00",
+    "searchKeywords": "Algeria, DZ, Algiers"
+  },
+  {
+    "country": "American Samoa",
+    "iso2": "AS",
+    "cityRegion": "Pago Pago",
+    "usStates": "",
+    "ianaTimezone": "Pacific/Pago_Pago",
+    "windowsTimezone": "UTC-11",
+    "utcOffset": "UTC-11:00",
+    "searchKeywords": "American Samoa, AS, Pago Pago"
+  },
+  {
+    "country": "Andorra",
+    "iso2": "AD",
+    "cityRegion": "Andorra",
+    "usStates": "",
+    "ianaTimezone": "Europe/Andorra",
+    "windowsTimezone": "W. Europe Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Andorra, AD, Andorra"
+  },
+  {
+    "country": "Angola",
+    "iso2": "AO",
+    "cityRegion": "Luanda",
+    "usStates": "",
+    "ianaTimezone": "Africa/Luanda",
+    "windowsTimezone": "W. Central Africa Standard Time",
+    "utcOffset": "UTC+01:00",
+    "searchKeywords": "Angola, AO, Luanda"
+  },
+  {
+    "country": "Anguilla",
+    "iso2": "AI",
+    "cityRegion": "Anguilla",
+    "usStates": "",
+    "ianaTimezone": "America/Anguilla",
+    "windowsTimezone": "SA Western Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "Anguilla, AI, Anguilla"
+  },
+  {
+    "country": "Antarctica",
+    "iso2": "AQ",
+    "cityRegion": "Casey",
+    "usStates": "",
+    "ianaTimezone": "Antarctica/Casey",
+    "windowsTimezone": "Central Pacific Standard Time",
+    "utcOffset": "UTC+08:00",
+    "searchKeywords": "Antarctica, AQ, Casey"
+  },
+  {
+    "country": "Antarctica",
+    "iso2": "AQ",
+    "cityRegion": "Davis",
+    "usStates": "",
+    "ianaTimezone": "Antarctica/Davis",
+    "windowsTimezone": "SE Asia Standard Time",
+    "utcOffset": "UTC+07:00",
+    "searchKeywords": "Antarctica, AQ, Davis"
+  },
+  {
+    "country": "Antarctica",
+    "iso2": "AQ",
+    "cityRegion": "DumontDUrville",
+    "usStates": "",
+    "ianaTimezone": "Antarctica/DumontDUrville",
+    "windowsTimezone": "West Pacific Standard Time",
+    "utcOffset": "UTC+10:00",
+    "searchKeywords": "Antarctica, AQ, DumontDUrville"
+  },
+  {
+    "country": "Antarctica",
+    "iso2": "AQ",
+    "cityRegion": "Mawson",
+    "usStates": "",
+    "ianaTimezone": "Antarctica/Mawson",
+    "windowsTimezone": "West Asia Standard Time",
+    "utcOffset": "UTC+05:00",
+    "searchKeywords": "Antarctica, AQ, Mawson"
+  },
+  {
+    "country": "Antarctica",
+    "iso2": "AQ",
+    "cityRegion": "McMurdo",
+    "usStates": "",
+    "ianaTimezone": "Antarctica/McMurdo",
+    "windowsTimezone": "New Zealand Standard Time",
+    "utcOffset": "UTC+12:00",
+    "searchKeywords": "Antarctica, AQ, McMurdo"
+  },
+  {
+    "country": "Antarctica",
+    "iso2": "AQ",
+    "cityRegion": "Palmer",
+    "usStates": "",
+    "ianaTimezone": "Antarctica/Palmer",
+    "windowsTimezone": "SA Eastern Standard Time",
+    "utcOffset": "UTC-03:00",
+    "searchKeywords": "Antarctica, AQ, Palmer"
+  },
+  {
+    "country": "Antarctica",
+    "iso2": "AQ",
+    "cityRegion": "Rothera",
+    "usStates": "",
+    "ianaTimezone": "Antarctica/Rothera",
+    "windowsTimezone": "SA Eastern Standard Time",
+    "utcOffset": "UTC-03:00",
+    "searchKeywords": "Antarctica, AQ, Rothera"
+  },
+  {
+    "country": "Antarctica",
+    "iso2": "AQ",
+    "cityRegion": "Syowa",
+    "usStates": "",
+    "ianaTimezone": "Antarctica/Syowa",
+    "windowsTimezone": "E. Africa Standard Time",
+    "utcOffset": "UTC+03:00",
+    "searchKeywords": "Antarctica, AQ, Syowa"
+  },
+  {
+    "country": "Antarctica",
+    "iso2": "AQ",
+    "cityRegion": "Troll",
+    "usStates": "",
+    "ianaTimezone": "Antarctica/Troll",
+    "windowsTimezone": "UTC",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Antarctica, AQ, Troll"
+  },
+  {
+    "country": "Antarctica",
+    "iso2": "AQ",
+    "cityRegion": "Vostok",
+    "usStates": "",
+    "ianaTimezone": "Antarctica/Vostok",
+    "windowsTimezone": "Central Asia Standard Time",
+    "utcOffset": "UTC+05:00",
+    "searchKeywords": "Antarctica, AQ, Vostok"
+  },
+  {
+    "country": "Antigua and Barbuda",
+    "iso2": "AG",
+    "cityRegion": "Antigua",
+    "usStates": "",
+    "ianaTimezone": "America/Antigua",
+    "windowsTimezone": "SA Western Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "Antigua and Barbuda, AG, Antigua"
+  },
+  {
+    "country": "Argentina",
+    "iso2": "AR",
+    "cityRegion": "Buenos Aires",
+    "usStates": "",
+    "ianaTimezone": "America/Argentina/Buenos_Aires",
+    "windowsTimezone": "Argentina Standard Time",
+    "utcOffset": "UTC-03:00",
+    "searchKeywords": "Argentina, AR, Buenos Aires"
+  },
+  {
+    "country": "Argentina",
+    "iso2": "AR",
+    "cityRegion": "Catamarca",
+    "usStates": "",
+    "ianaTimezone": "America/Argentina/Catamarca",
+    "windowsTimezone": "Argentina Standard Time",
+    "utcOffset": "UTC-03:00",
+    "searchKeywords": "Argentina, AR, Catamarca"
+  },
+  {
+    "country": "Argentina",
+    "iso2": "AR",
+    "cityRegion": "Cordoba",
+    "usStates": "",
+    "ianaTimezone": "America/Argentina/Cordoba",
+    "windowsTimezone": "Argentina Standard Time",
+    "utcOffset": "UTC-03:00",
+    "searchKeywords": "Argentina, AR, Cordoba"
+  },
+  {
+    "country": "Argentina",
+    "iso2": "AR",
+    "cityRegion": "Jujuy",
+    "usStates": "",
+    "ianaTimezone": "America/Argentina/Jujuy",
+    "windowsTimezone": "Argentina Standard Time",
+    "utcOffset": "UTC-03:00",
+    "searchKeywords": "Argentina, AR, Jujuy"
+  },
+  {
+    "country": "Argentina",
+    "iso2": "AR",
+    "cityRegion": "La Rioja",
+    "usStates": "",
+    "ianaTimezone": "America/Argentina/La_Rioja",
+    "windowsTimezone": "Argentina Standard Time",
+    "utcOffset": "UTC-03:00",
+    "searchKeywords": "Argentina, AR, La Rioja"
+  },
+  {
+    "country": "Argentina",
+    "iso2": "AR",
+    "cityRegion": "Mendoza",
+    "usStates": "",
+    "ianaTimezone": "America/Argentina/Mendoza",
+    "windowsTimezone": "Argentina Standard Time",
+    "utcOffset": "UTC-03:00",
+    "searchKeywords": "Argentina, AR, Mendoza"
+  },
+  {
+    "country": "Argentina",
+    "iso2": "AR",
+    "cityRegion": "Rio Gallegos",
+    "usStates": "",
+    "ianaTimezone": "America/Argentina/Rio_Gallegos",
+    "windowsTimezone": "Argentina Standard Time",
+    "utcOffset": "UTC-03:00",
+    "searchKeywords": "Argentina, AR, Rio Gallegos"
+  },
+  {
+    "country": "Argentina",
+    "iso2": "AR",
+    "cityRegion": "Salta",
+    "usStates": "",
+    "ianaTimezone": "America/Argentina/Salta",
+    "windowsTimezone": "Argentina Standard Time",
+    "utcOffset": "UTC-03:00",
+    "searchKeywords": "Argentina, AR, Salta"
+  },
+  {
+    "country": "Argentina",
+    "iso2": "AR",
+    "cityRegion": "San Juan",
+    "usStates": "",
+    "ianaTimezone": "America/Argentina/San_Juan",
+    "windowsTimezone": "Argentina Standard Time",
+    "utcOffset": "UTC-03:00",
+    "searchKeywords": "Argentina, AR, San Juan"
+  },
+  {
+    "country": "Argentina",
+    "iso2": "AR",
+    "cityRegion": "San Luis",
+    "usStates": "",
+    "ianaTimezone": "America/Argentina/San_Luis",
+    "windowsTimezone": "Argentina Standard Time",
+    "utcOffset": "UTC-03:00",
+    "searchKeywords": "Argentina, AR, San Luis"
+  },
+  {
+    "country": "Argentina",
+    "iso2": "AR",
+    "cityRegion": "Tucuman",
+    "usStates": "",
+    "ianaTimezone": "America/Argentina/Tucuman",
+    "windowsTimezone": "Argentina Standard Time",
+    "utcOffset": "UTC-03:00",
+    "searchKeywords": "Argentina, AR, Tucuman"
+  },
+  {
+    "country": "Argentina",
+    "iso2": "AR",
+    "cityRegion": "Ushuaia",
+    "usStates": "",
+    "ianaTimezone": "America/Argentina/Ushuaia",
+    "windowsTimezone": "Argentina Standard Time",
+    "utcOffset": "UTC-03:00",
+    "searchKeywords": "Argentina, AR, Ushuaia"
+  },
+  {
+    "country": "Armenia",
+    "iso2": "AM",
+    "cityRegion": "Yerevan",
+    "usStates": "",
+    "ianaTimezone": "Asia/Yerevan",
+    "windowsTimezone": "Caucasus Standard Time",
+    "utcOffset": "UTC+04:00",
+    "searchKeywords": "Armenia, AM, Yerevan"
+  },
+  {
+    "country": "Aruba",
+    "iso2": "AW",
+    "cityRegion": "Aruba",
+    "usStates": "",
+    "ianaTimezone": "America/Aruba",
+    "windowsTimezone": "SA Western Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "Aruba, AW, Aruba"
+  },
+  {
+    "country": "Australia",
+    "iso2": "AU",
+    "cityRegion": "Adelaide",
+    "usStates": "",
+    "ianaTimezone": "Australia/Adelaide",
+    "windowsTimezone": "Cen. Australia Standard Time",
+    "utcOffset": "UTC+09:30",
+    "searchKeywords": "Australia, AU, Adelaide"
+  },
+  {
+    "country": "Australia",
+    "iso2": "AU",
+    "cityRegion": "Brisbane",
+    "usStates": "",
+    "ianaTimezone": "Australia/Brisbane",
+    "windowsTimezone": "E. Australia Standard Time",
+    "utcOffset": "UTC+10:00",
+    "searchKeywords": "Australia, AU, Brisbane"
+  },
+  {
+    "country": "Australia",
+    "iso2": "AU",
+    "cityRegion": "Broken Hill",
+    "usStates": "",
+    "ianaTimezone": "Australia/Broken_Hill",
+    "windowsTimezone": "Cen. Australia Standard Time",
+    "utcOffset": "UTC+09:30",
+    "searchKeywords": "Australia, AU, Broken Hill"
+  },
+  {
+    "country": "Australia",
+    "iso2": "AU",
+    "cityRegion": "Darwin",
+    "usStates": "",
+    "ianaTimezone": "Australia/Darwin",
+    "windowsTimezone": "AUS Central Standard Time",
+    "utcOffset": "UTC+09:30",
+    "searchKeywords": "Australia, AU, Darwin"
+  },
+  {
+    "country": "Australia",
+    "iso2": "AU",
+    "cityRegion": "Eucla",
+    "usStates": "",
+    "ianaTimezone": "Australia/Eucla",
+    "windowsTimezone": "Aus Central W. Standard Time",
+    "utcOffset": "UTC+08:45",
+    "searchKeywords": "Australia, AU, Eucla"
+  },
+  {
+    "country": "Australia",
+    "iso2": "AU",
+    "cityRegion": "Hobart",
+    "usStates": "",
+    "ianaTimezone": "Australia/Hobart",
+    "windowsTimezone": "Tasmania Standard Time",
+    "utcOffset": "UTC+10:00",
+    "searchKeywords": "Australia, AU, Hobart"
+  },
+  {
+    "country": "Australia",
+    "iso2": "AU",
+    "cityRegion": "Lindeman",
+    "usStates": "",
+    "ianaTimezone": "Australia/Lindeman",
+    "windowsTimezone": "E. Australia Standard Time",
+    "utcOffset": "UTC+10:00",
+    "searchKeywords": "Australia, AU, Lindeman"
+  },
+  {
+    "country": "Australia",
+    "iso2": "AU",
+    "cityRegion": "Lord Howe",
+    "usStates": "",
+    "ianaTimezone": "Australia/Lord_Howe",
+    "windowsTimezone": "Lord Howe Standard Time",
+    "utcOffset": "UTC+10:30",
+    "searchKeywords": "Australia, AU, Lord Howe"
+  },
+  {
+    "country": "Australia",
+    "iso2": "AU",
+    "cityRegion": "Macquarie",
+    "usStates": "",
+    "ianaTimezone": "Antarctica/Macquarie",
+    "windowsTimezone": "Tasmania Standard Time",
+    "utcOffset": "UTC+10:00",
+    "searchKeywords": "Australia, AU, Macquarie"
+  },
+  {
+    "country": "Australia",
+    "iso2": "AU",
+    "cityRegion": "Melbourne",
+    "usStates": "",
+    "ianaTimezone": "Australia/Melbourne",
+    "windowsTimezone": "AUS Eastern Standard Time",
+    "utcOffset": "UTC+10:00",
+    "searchKeywords": "Australia, AU, Melbourne"
+  },
+  {
+    "country": "Australia",
+    "iso2": "AU",
+    "cityRegion": "Perth",
+    "usStates": "",
+    "ianaTimezone": "Australia/Perth",
+    "windowsTimezone": "W. Australia Standard Time",
+    "utcOffset": "UTC+08:00",
+    "searchKeywords": "Australia, AU, Perth"
+  },
+  {
+    "country": "Australia",
+    "iso2": "AU",
+    "cityRegion": "Sydney",
+    "usStates": "",
+    "ianaTimezone": "Australia/Sydney",
+    "windowsTimezone": "AUS Eastern Standard Time",
+    "utcOffset": "UTC+10:00",
+    "searchKeywords": "Australia, AU, Sydney"
+  },
+  {
+    "country": "Austria",
+    "iso2": "AT",
+    "cityRegion": "Vienna",
+    "usStates": "",
+    "ianaTimezone": "Europe/Vienna",
+    "windowsTimezone": "W. Europe Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Austria, AT, Vienna"
+  },
+  {
+    "country": "Azerbaijan",
+    "iso2": "AZ",
+    "cityRegion": "Baku",
+    "usStates": "",
+    "ianaTimezone": "Asia/Baku",
+    "windowsTimezone": "Azerbaijan Standard Time",
+    "utcOffset": "UTC+04:00",
+    "searchKeywords": "Azerbaijan, AZ, Baku"
+  },
+  {
+    "country": "Bahamas",
+    "iso2": "BS",
+    "cityRegion": "Nassau",
+    "usStates": "",
+    "ianaTimezone": "America/Nassau",
+    "windowsTimezone": "Eastern Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "Bahamas, BS, Nassau"
+  },
+  {
+    "country": "Bahrain",
+    "iso2": "BH",
+    "cityRegion": "Bahrain",
+    "usStates": "",
+    "ianaTimezone": "Asia/Bahrain",
+    "windowsTimezone": "Arab Standard Time",
+    "utcOffset": "UTC+03:00",
+    "searchKeywords": "Bahrain, BH, Bahrain"
+  },
+  {
+    "country": "Bangladesh",
+    "iso2": "BD",
+    "cityRegion": "Dhaka",
+    "usStates": "",
+    "ianaTimezone": "Asia/Dhaka",
+    "windowsTimezone": "Bangladesh Standard Time",
+    "utcOffset": "UTC+06:00",
+    "searchKeywords": "Bangladesh, BD, Dhaka"
+  },
+  {
+    "country": "Barbados",
+    "iso2": "BB",
+    "cityRegion": "Barbados",
+    "usStates": "",
+    "ianaTimezone": "America/Barbados",
+    "windowsTimezone": "SA Western Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "Barbados, BB, Barbados"
+  },
+  {
+    "country": "Belarus",
+    "iso2": "BY",
+    "cityRegion": "Minsk",
+    "usStates": "",
+    "ianaTimezone": "Europe/Minsk",
+    "windowsTimezone": "Belarus Standard Time",
+    "utcOffset": "UTC+03:00",
+    "searchKeywords": "Belarus, BY, Minsk"
+  },
+  {
+    "country": "Belgium",
+    "iso2": "BE",
+    "cityRegion": "Brussels",
+    "usStates": "",
+    "ianaTimezone": "Europe/Brussels",
+    "windowsTimezone": "Romance Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Belgium, BE, Brussels"
+  },
+  {
+    "country": "Belize",
+    "iso2": "BZ",
+    "cityRegion": "Belize",
+    "usStates": "",
+    "ianaTimezone": "America/Belize",
+    "windowsTimezone": "Central America Standard Time",
+    "utcOffset": "UTC-06:00",
+    "searchKeywords": "Belize, BZ, Belize"
+  },
+  {
+    "country": "Benin",
+    "iso2": "BJ",
+    "cityRegion": "Porto-Novo",
+    "usStates": "",
+    "ianaTimezone": "Africa/Porto-Novo",
+    "windowsTimezone": "W. Central Africa Standard Time",
+    "utcOffset": "UTC+01:00",
+    "searchKeywords": "Benin, BJ, Porto-Novo"
+  },
+  {
+    "country": "Bermuda",
+    "iso2": "BM",
+    "cityRegion": "Bermuda",
+    "usStates": "",
+    "ianaTimezone": "Atlantic/Bermuda",
+    "windowsTimezone": "Atlantic Standard Time",
+    "utcOffset": "UTC-03:00",
+    "searchKeywords": "Bermuda, BM, Bermuda"
+  },
+  {
+    "country": "Bhutan",
+    "iso2": "BT",
+    "cityRegion": "Thimphu",
+    "usStates": "",
+    "ianaTimezone": "Asia/Thimphu",
+    "windowsTimezone": "Bangladesh Standard Time",
+    "utcOffset": "UTC+06:00",
+    "searchKeywords": "Bhutan, BT, Thimphu"
+  },
+  {
+    "country": "Bolivia, Plurinational State of",
+    "iso2": "BO",
+    "cityRegion": "La Paz",
+    "usStates": "",
+    "ianaTimezone": "America/La_Paz",
+    "windowsTimezone": "SA Western Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "Bolivia, Plurinational State of, BO, La Paz"
+  },
+  {
+    "country": "Bonaire, Sint Eustatius and Saba",
+    "iso2": "BQ",
+    "cityRegion": "Kralendijk",
+    "usStates": "",
+    "ianaTimezone": "America/Kralendijk",
+    "windowsTimezone": "SA Western Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "Bonaire, Sint Eustatius and Saba, BQ, Kralendijk"
+  },
+  {
+    "country": "Bosnia and Herzegovina",
+    "iso2": "BA",
+    "cityRegion": "Sarajevo",
+    "usStates": "",
+    "ianaTimezone": "Europe/Sarajevo",
+    "windowsTimezone": "Central European Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Bosnia and Herzegovina, BA, Sarajevo"
+  },
+  {
+    "country": "Botswana",
+    "iso2": "BW",
+    "cityRegion": "Gaborone",
+    "usStates": "",
+    "ianaTimezone": "Africa/Gaborone",
+    "windowsTimezone": "South Africa Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Botswana, BW, Gaborone"
+  },
+  {
+    "country": "Brazil",
+    "iso2": "BR",
+    "cityRegion": "Araguaina",
+    "usStates": "",
+    "ianaTimezone": "America/Araguaina",
+    "windowsTimezone": "Tocantins Standard Time",
+    "utcOffset": "UTC-03:00",
+    "searchKeywords": "Brazil, BR, Araguaina"
+  },
+  {
+    "country": "Brazil",
+    "iso2": "BR",
+    "cityRegion": "Bahia",
+    "usStates": "",
+    "ianaTimezone": "America/Bahia",
+    "windowsTimezone": "Bahia Standard Time",
+    "utcOffset": "UTC-03:00",
+    "searchKeywords": "Brazil, BR, Bahia"
+  },
+  {
+    "country": "Brazil",
+    "iso2": "BR",
+    "cityRegion": "Belem",
+    "usStates": "",
+    "ianaTimezone": "America/Belem",
+    "windowsTimezone": "SA Eastern Standard Time",
+    "utcOffset": "UTC-03:00",
+    "searchKeywords": "Brazil, BR, Belem"
+  },
+  {
+    "country": "Brazil",
+    "iso2": "BR",
+    "cityRegion": "Boa Vista",
+    "usStates": "",
+    "ianaTimezone": "America/Boa_Vista",
+    "windowsTimezone": "SA Western Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "Brazil, BR, Boa Vista"
+  },
+  {
+    "country": "Brazil",
+    "iso2": "BR",
+    "cityRegion": "Campo Grande",
+    "usStates": "",
+    "ianaTimezone": "America/Campo_Grande",
+    "windowsTimezone": "Central Brazilian Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "Brazil, BR, Campo Grande"
+  },
+  {
+    "country": "Brazil",
+    "iso2": "BR",
+    "cityRegion": "Cuiaba",
+    "usStates": "",
+    "ianaTimezone": "America/Cuiaba",
+    "windowsTimezone": "Central Brazilian Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "Brazil, BR, Cuiaba"
+  },
+  {
+    "country": "Brazil",
+    "iso2": "BR",
+    "cityRegion": "Eirunepe",
+    "usStates": "",
+    "ianaTimezone": "America/Eirunepe",
+    "windowsTimezone": "SA Pacific Standard Time",
+    "utcOffset": "UTC-05:00",
+    "searchKeywords": "Brazil, BR, Eirunepe"
+  },
+  {
+    "country": "Brazil",
+    "iso2": "BR",
+    "cityRegion": "Fortaleza",
+    "usStates": "",
+    "ianaTimezone": "America/Fortaleza",
+    "windowsTimezone": "SA Eastern Standard Time",
+    "utcOffset": "UTC-03:00",
+    "searchKeywords": "Brazil, BR, Fortaleza"
+  },
+  {
+    "country": "Brazil",
+    "iso2": "BR",
+    "cityRegion": "Maceio",
+    "usStates": "",
+    "ianaTimezone": "America/Maceio",
+    "windowsTimezone": "SA Eastern Standard Time",
+    "utcOffset": "UTC-03:00",
+    "searchKeywords": "Brazil, BR, Maceio"
+  },
+  {
+    "country": "Brazil",
+    "iso2": "BR",
+    "cityRegion": "Manaus",
+    "usStates": "",
+    "ianaTimezone": "America/Manaus",
+    "windowsTimezone": "SA Western Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "Brazil, BR, Manaus"
+  },
+  {
+    "country": "Brazil",
+    "iso2": "BR",
+    "cityRegion": "Noronha",
+    "usStates": "",
+    "ianaTimezone": "America/Noronha",
+    "windowsTimezone": "UTC-02",
+    "utcOffset": "UTC-02:00",
+    "searchKeywords": "Brazil, BR, Noronha"
+  },
+  {
+    "country": "Brazil",
+    "iso2": "BR",
+    "cityRegion": "Porto Velho",
+    "usStates": "",
+    "ianaTimezone": "America/Porto_Velho",
+    "windowsTimezone": "SA Western Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "Brazil, BR, Porto Velho"
+  },
+  {
+    "country": "Brazil",
+    "iso2": "BR",
+    "cityRegion": "Recife",
+    "usStates": "",
+    "ianaTimezone": "America/Recife",
+    "windowsTimezone": "SA Eastern Standard Time",
+    "utcOffset": "UTC-03:00",
+    "searchKeywords": "Brazil, BR, Recife"
+  },
+  {
+    "country": "Brazil",
+    "iso2": "BR",
+    "cityRegion": "Rio Branco",
+    "usStates": "",
+    "ianaTimezone": "America/Rio_Branco",
+    "windowsTimezone": "SA Pacific Standard Time",
+    "utcOffset": "UTC-05:00",
+    "searchKeywords": "Brazil, BR, Rio Branco"
+  },
+  {
+    "country": "Brazil",
+    "iso2": "BR",
+    "cityRegion": "Santarem",
+    "usStates": "",
+    "ianaTimezone": "America/Santarem",
+    "windowsTimezone": "SA Eastern Standard Time",
+    "utcOffset": "UTC-03:00",
+    "searchKeywords": "Brazil, BR, Santarem"
+  },
+  {
+    "country": "Brazil",
+    "iso2": "BR",
+    "cityRegion": "Sao Paulo",
+    "usStates": "",
+    "ianaTimezone": "America/Sao_Paulo",
+    "windowsTimezone": "E. South America Standard Time",
+    "utcOffset": "UTC-03:00",
+    "searchKeywords": "Brazil, BR, Sao Paulo"
+  },
+  {
+    "country": "British Indian Ocean Territory",
+    "iso2": "IO",
+    "cityRegion": "Chagos",
+    "usStates": "",
+    "ianaTimezone": "Indian/Chagos",
+    "windowsTimezone": "Central Asia Standard Time",
+    "utcOffset": "UTC+06:00",
+    "searchKeywords": "British Indian Ocean Territory, IO, Chagos"
+  },
+  {
+    "country": "Brunei Darussalam",
+    "iso2": "BN",
+    "cityRegion": "Brunei",
+    "usStates": "",
+    "ianaTimezone": "Asia/Brunei",
+    "windowsTimezone": "Singapore Standard Time",
+    "utcOffset": "UTC+08:00",
+    "searchKeywords": "Brunei Darussalam, BN, Brunei"
+  },
+  {
+    "country": "Bulgaria",
+    "iso2": "BG",
+    "cityRegion": "Sofia",
+    "usStates": "",
+    "ianaTimezone": "Europe/Sofia",
+    "windowsTimezone": "FLE Standard Time",
+    "utcOffset": "UTC+03:00",
+    "searchKeywords": "Bulgaria, BG, Sofia"
+  },
+  {
+    "country": "Burkina Faso",
+    "iso2": "BF",
+    "cityRegion": "Ouagadougou",
+    "usStates": "",
+    "ianaTimezone": "Africa/Ouagadougou",
+    "windowsTimezone": "Greenwich Standard Time",
+    "utcOffset": "UTC+00:00",
+    "searchKeywords": "Burkina Faso, BF, Ouagadougou"
+  },
+  {
+    "country": "Burundi",
+    "iso2": "BI",
+    "cityRegion": "Bujumbura",
+    "usStates": "",
+    "ianaTimezone": "Africa/Bujumbura",
+    "windowsTimezone": "South Africa Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Burundi, BI, Bujumbura"
+  },
+  {
+    "country": "Cabo Verde",
+    "iso2": "CV",
+    "cityRegion": "Cape Verde",
+    "usStates": "",
+    "ianaTimezone": "Atlantic/Cape_Verde",
+    "windowsTimezone": "Cape Verde Standard Time",
+    "utcOffset": "UTC-01:00",
+    "searchKeywords": "Cabo Verde, CV, Cape Verde"
+  },
+  {
+    "country": "Cambodia",
+    "iso2": "KH",
+    "cityRegion": "Phnom Penh",
+    "usStates": "",
+    "ianaTimezone": "Asia/Phnom_Penh",
+    "windowsTimezone": "SE Asia Standard Time",
+    "utcOffset": "UTC+07:00",
+    "searchKeywords": "Cambodia, KH, Phnom Penh"
+  },
+  {
+    "country": "Cameroon",
+    "iso2": "CM",
+    "cityRegion": "Douala",
+    "usStates": "",
+    "ianaTimezone": "Africa/Douala",
+    "windowsTimezone": "W. Central Africa Standard Time",
+    "utcOffset": "UTC+01:00",
+    "searchKeywords": "Cameroon, CM, Douala"
+  },
+  {
+    "country": "Canada",
+    "iso2": "CA",
+    "cityRegion": "Atikokan",
+    "usStates": "",
+    "ianaTimezone": "America/Atikokan",
+    "windowsTimezone": "SA Pacific Standard Time",
+    "utcOffset": "UTC-05:00",
+    "searchKeywords": "Canada, CA, Atikokan"
+  },
+  {
+    "country": "Canada",
+    "iso2": "CA",
+    "cityRegion": "Blanc-Sablon",
+    "usStates": "",
+    "ianaTimezone": "America/Blanc-Sablon",
+    "windowsTimezone": "SA Western Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "Canada, CA, Blanc-Sablon"
+  },
+  {
+    "country": "Canada",
+    "iso2": "CA",
+    "cityRegion": "Cambridge Bay",
+    "usStates": "",
+    "ianaTimezone": "America/Cambridge_Bay",
+    "windowsTimezone": "Mountain Standard Time",
+    "utcOffset": "UTC-06:00",
+    "searchKeywords": "Canada, CA, Cambridge Bay"
+  },
+  {
+    "country": "Canada",
+    "iso2": "CA",
+    "cityRegion": "Creston",
+    "usStates": "",
+    "ianaTimezone": "America/Creston",
+    "windowsTimezone": "US Mountain Standard Time",
+    "utcOffset": "UTC-07:00",
+    "searchKeywords": "Canada, CA, Creston"
+  },
+  {
+    "country": "Canada",
+    "iso2": "CA",
+    "cityRegion": "Dawson",
+    "usStates": "",
+    "ianaTimezone": "America/Dawson",
+    "windowsTimezone": "Yukon Standard Time",
+    "utcOffset": "UTC-07:00",
+    "searchKeywords": "Canada, CA, Dawson"
+  },
+  {
+    "country": "Canada",
+    "iso2": "CA",
+    "cityRegion": "Dawson Creek",
+    "usStates": "",
+    "ianaTimezone": "America/Dawson_Creek",
+    "windowsTimezone": "US Mountain Standard Time",
+    "utcOffset": "UTC-07:00",
+    "searchKeywords": "Canada, CA, Dawson Creek"
+  },
+  {
+    "country": "Canada",
+    "iso2": "CA",
+    "cityRegion": "Edmonton",
+    "usStates": "",
+    "ianaTimezone": "America/Edmonton",
+    "windowsTimezone": "Mountain Standard Time",
+    "utcOffset": "UTC-06:00",
+    "searchKeywords": "Canada, CA, Edmonton"
+  },
+  {
+    "country": "Canada",
+    "iso2": "CA",
+    "cityRegion": "Fort Nelson",
+    "usStates": "",
+    "ianaTimezone": "America/Fort_Nelson",
+    "windowsTimezone": "US Mountain Standard Time",
+    "utcOffset": "UTC-07:00",
+    "searchKeywords": "Canada, CA, Fort Nelson"
+  },
+  {
+    "country": "Canada",
+    "iso2": "CA",
+    "cityRegion": "Glace Bay",
+    "usStates": "",
+    "ianaTimezone": "America/Glace_Bay",
+    "windowsTimezone": "Atlantic Standard Time",
+    "utcOffset": "UTC-03:00",
+    "searchKeywords": "Canada, CA, Glace Bay"
+  },
+  {
+    "country": "Canada",
+    "iso2": "CA",
+    "cityRegion": "Goose Bay",
+    "usStates": "",
+    "ianaTimezone": "America/Goose_Bay",
+    "windowsTimezone": "Atlantic Standard Time",
+    "utcOffset": "UTC-03:00",
+    "searchKeywords": "Canada, CA, Goose Bay"
+  },
+  {
+    "country": "Canada",
+    "iso2": "CA",
+    "cityRegion": "Halifax",
+    "usStates": "",
+    "ianaTimezone": "America/Halifax",
+    "windowsTimezone": "Atlantic Standard Time",
+    "utcOffset": "UTC-03:00",
+    "searchKeywords": "Canada, CA, Halifax"
+  },
+  {
+    "country": "Canada",
+    "iso2": "CA",
+    "cityRegion": "Inuvik",
+    "usStates": "",
+    "ianaTimezone": "America/Inuvik",
+    "windowsTimezone": "Mountain Standard Time",
+    "utcOffset": "UTC-06:00",
+    "searchKeywords": "Canada, CA, Inuvik"
+  },
+  {
+    "country": "Canada",
+    "iso2": "CA",
+    "cityRegion": "Iqaluit",
+    "usStates": "",
+    "ianaTimezone": "America/Iqaluit",
+    "windowsTimezone": "Eastern Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "Canada, CA, Iqaluit"
+  },
+  {
+    "country": "Canada",
+    "iso2": "CA",
+    "cityRegion": "Moncton",
+    "usStates": "",
+    "ianaTimezone": "America/Moncton",
+    "windowsTimezone": "Atlantic Standard Time",
+    "utcOffset": "UTC-03:00",
+    "searchKeywords": "Canada, CA, Moncton"
+  },
+  {
+    "country": "Canada",
+    "iso2": "CA",
+    "cityRegion": "Rankin Inlet",
+    "usStates": "",
+    "ianaTimezone": "America/Rankin_Inlet",
+    "windowsTimezone": "Central Standard Time",
+    "utcOffset": "UTC-05:00",
+    "searchKeywords": "Canada, CA, Rankin Inlet"
+  },
+  {
+    "country": "Canada",
+    "iso2": "CA",
+    "cityRegion": "Regina",
+    "usStates": "",
+    "ianaTimezone": "America/Regina",
+    "windowsTimezone": "Canada Central Standard Time",
+    "utcOffset": "UTC-06:00",
+    "searchKeywords": "Canada, CA, Regina"
+  },
+  {
+    "country": "Canada",
+    "iso2": "CA",
+    "cityRegion": "Resolute",
+    "usStates": "",
+    "ianaTimezone": "America/Resolute",
+    "windowsTimezone": "Central Standard Time",
+    "utcOffset": "UTC-05:00",
+    "searchKeywords": "Canada, CA, Resolute"
+  },
+  {
+    "country": "Canada",
+    "iso2": "CA",
+    "cityRegion": "St Johns",
+    "usStates": "",
+    "ianaTimezone": "America/St_Johns",
+    "windowsTimezone": "Newfoundland Standard Time",
+    "utcOffset": "UTC-02:30",
+    "searchKeywords": "Canada, CA, St Johns"
+  },
+  {
+    "country": "Canada",
+    "iso2": "CA",
+    "cityRegion": "Swift Current",
+    "usStates": "",
+    "ianaTimezone": "America/Swift_Current",
+    "windowsTimezone": "Canada Central Standard Time",
+    "utcOffset": "UTC-06:00",
+    "searchKeywords": "Canada, CA, Swift Current"
+  },
+  {
+    "country": "Canada",
+    "iso2": "CA",
+    "cityRegion": "Toronto",
+    "usStates": "",
+    "ianaTimezone": "America/Toronto",
+    "windowsTimezone": "Eastern Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "Canada, CA, Toronto"
+  },
+  {
+    "country": "Canada",
+    "iso2": "CA",
+    "cityRegion": "Vancouver",
+    "usStates": "",
+    "ianaTimezone": "America/Vancouver",
+    "windowsTimezone": "Pacific Standard Time",
+    "utcOffset": "UTC-07:00",
+    "searchKeywords": "Canada, CA, Vancouver"
+  },
+  {
+    "country": "Canada",
+    "iso2": "CA",
+    "cityRegion": "Whitehorse",
+    "usStates": "",
+    "ianaTimezone": "America/Whitehorse",
+    "windowsTimezone": "Yukon Standard Time",
+    "utcOffset": "UTC-07:00",
+    "searchKeywords": "Canada, CA, Whitehorse"
+  },
+  {
+    "country": "Canada",
+    "iso2": "CA",
+    "cityRegion": "Winnipeg",
+    "usStates": "",
+    "ianaTimezone": "America/Winnipeg",
+    "windowsTimezone": "Central Standard Time",
+    "utcOffset": "UTC-05:00",
+    "searchKeywords": "Canada, CA, Winnipeg"
+  },
+  {
+    "country": "Cayman Islands",
+    "iso2": "KY",
+    "cityRegion": "Cayman",
+    "usStates": "",
+    "ianaTimezone": "America/Cayman",
+    "windowsTimezone": "SA Pacific Standard Time",
+    "utcOffset": "UTC-05:00",
+    "searchKeywords": "Cayman Islands, KY, Cayman"
+  },
+  {
+    "country": "Central African Republic",
+    "iso2": "CF",
+    "cityRegion": "Bangui",
+    "usStates": "",
+    "ianaTimezone": "Africa/Bangui",
+    "windowsTimezone": "W. Central Africa Standard Time",
+    "utcOffset": "UTC+01:00",
+    "searchKeywords": "Central African Republic, CF, Bangui"
+  },
+  {
+    "country": "Chad",
+    "iso2": "TD",
+    "cityRegion": "Ndjamena",
+    "usStates": "",
+    "ianaTimezone": "Africa/Ndjamena",
+    "windowsTimezone": "W. Central Africa Standard Time",
+    "utcOffset": "UTC+01:00",
+    "searchKeywords": "Chad, TD, Ndjamena"
+  },
+  {
+    "country": "Chile",
+    "iso2": "CL",
+    "cityRegion": "Coyhaique",
+    "usStates": "",
+    "ianaTimezone": "America/Coyhaique",
+    "windowsTimezone": "Magallanes Standard Time",
+    "utcOffset": "UTC-03:00",
+    "searchKeywords": "Chile, CL, Coyhaique"
+  },
+  {
+    "country": "Chile",
+    "iso2": "CL",
+    "cityRegion": "Easter",
+    "usStates": "",
+    "ianaTimezone": "Pacific/Easter",
+    "windowsTimezone": "Easter Island Standard Time",
+    "utcOffset": "UTC-06:00",
+    "searchKeywords": "Chile, CL, Easter"
+  },
+  {
+    "country": "Chile",
+    "iso2": "CL",
+    "cityRegion": "Punta Arenas",
+    "usStates": "",
+    "ianaTimezone": "America/Punta_Arenas",
+    "windowsTimezone": "Magallanes Standard Time",
+    "utcOffset": "UTC-03:00",
+    "searchKeywords": "Chile, CL, Punta Arenas"
+  },
+  {
+    "country": "Chile",
+    "iso2": "CL",
+    "cityRegion": "Santiago",
+    "usStates": "",
+    "ianaTimezone": "America/Santiago",
+    "windowsTimezone": "Pacific SA Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "Chile, CL, Santiago"
+  },
+  {
+    "country": "China",
+    "iso2": "CN",
+    "cityRegion": "Shanghai",
+    "usStates": "",
+    "ianaTimezone": "Asia/Shanghai",
+    "windowsTimezone": "China Standard Time",
+    "utcOffset": "UTC+08:00",
+    "searchKeywords": "China, CN, Shanghai"
+  },
+  {
+    "country": "China",
+    "iso2": "CN",
+    "cityRegion": "Urumqi",
+    "usStates": "",
+    "ianaTimezone": "Asia/Urumqi",
+    "windowsTimezone": "Central Asia Standard Time",
+    "utcOffset": "UTC+06:00",
+    "searchKeywords": "China, CN, Urumqi"
+  },
+  {
+    "country": "Christmas Island",
+    "iso2": "CX",
+    "cityRegion": "Christmas",
+    "usStates": "",
+    "ianaTimezone": "Indian/Christmas",
+    "windowsTimezone": "SE Asia Standard Time",
+    "utcOffset": "UTC+07:00",
+    "searchKeywords": "Christmas Island, CX, Christmas"
+  },
+  {
+    "country": "Cocos (Keeling) Islands",
+    "iso2": "CC",
+    "cityRegion": "Cocos",
+    "usStates": "",
+    "ianaTimezone": "Indian/Cocos",
+    "windowsTimezone": "Myanmar Standard Time",
+    "utcOffset": "UTC+06:30",
+    "searchKeywords": "Cocos (Keeling) Islands, CC, Cocos"
+  },
+  {
+    "country": "Colombia",
+    "iso2": "CO",
+    "cityRegion": "Bogota",
+    "usStates": "",
+    "ianaTimezone": "America/Bogota",
+    "windowsTimezone": "SA Pacific Standard Time",
+    "utcOffset": "UTC-05:00",
+    "searchKeywords": "Colombia, CO, Bogota"
+  },
+  {
+    "country": "Comoros",
+    "iso2": "KM",
+    "cityRegion": "Comoro",
+    "usStates": "",
+    "ianaTimezone": "Indian/Comoro",
+    "windowsTimezone": "E. Africa Standard Time",
+    "utcOffset": "UTC+03:00",
+    "searchKeywords": "Comoros, KM, Comoro"
+  },
+  {
+    "country": "Congo",
+    "iso2": "CG",
+    "cityRegion": "Brazzaville",
+    "usStates": "",
+    "ianaTimezone": "Africa/Brazzaville",
+    "windowsTimezone": "W. Central Africa Standard Time",
+    "utcOffset": "UTC+01:00",
+    "searchKeywords": "Congo, CG, Brazzaville"
+  },
+  {
+    "country": "Congo, The Democratic Republic of the",
+    "iso2": "CD",
+    "cityRegion": "Kinshasa",
+    "usStates": "",
+    "ianaTimezone": "Africa/Kinshasa",
+    "windowsTimezone": "W. Central Africa Standard Time",
+    "utcOffset": "UTC+01:00",
+    "searchKeywords": "Congo, The Democratic Republic of the, CD, Kinshasa"
+  },
+  {
+    "country": "Congo, The Democratic Republic of the",
+    "iso2": "CD",
+    "cityRegion": "Lubumbashi",
+    "usStates": "",
+    "ianaTimezone": "Africa/Lubumbashi",
+    "windowsTimezone": "South Africa Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Congo, The Democratic Republic of the, CD, Lubumbashi"
+  },
+  {
+    "country": "Cook Islands",
+    "iso2": "CK",
+    "cityRegion": "Rarotonga",
+    "usStates": "",
+    "ianaTimezone": "Pacific/Rarotonga",
+    "windowsTimezone": "Hawaiian Standard Time",
+    "utcOffset": "UTC-10:00",
+    "searchKeywords": "Cook Islands, CK, Rarotonga"
+  },
+  {
+    "country": "Costa Rica",
+    "iso2": "CR",
+    "cityRegion": "Costa Rica",
+    "usStates": "",
+    "ianaTimezone": "America/Costa_Rica",
+    "windowsTimezone": "Central America Standard Time",
+    "utcOffset": "UTC-06:00",
+    "searchKeywords": "Costa Rica, CR, Costa Rica"
+  },
+  {
+    "country": "Côte d'Ivoire",
+    "iso2": "CI",
+    "cityRegion": "Abidjan",
+    "usStates": "",
+    "ianaTimezone": "Africa/Abidjan",
+    "windowsTimezone": "Greenwich Standard Time",
+    "utcOffset": "UTC+00:00",
+    "searchKeywords": "Côte d'Ivoire, CI, Abidjan"
+  },
+  {
+    "country": "Croatia",
+    "iso2": "HR",
+    "cityRegion": "Zagreb",
+    "usStates": "",
+    "ianaTimezone": "Europe/Zagreb",
+    "windowsTimezone": "Central European Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Croatia, HR, Zagreb"
+  },
+  {
+    "country": "Cuba",
+    "iso2": "CU",
+    "cityRegion": "Havana",
+    "usStates": "",
+    "ianaTimezone": "America/Havana",
+    "windowsTimezone": "Cuba Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "Cuba, CU, Havana"
+  },
+  {
+    "country": "Curaçao",
+    "iso2": "CW",
+    "cityRegion": "Curacao",
+    "usStates": "",
+    "ianaTimezone": "America/Curacao",
+    "windowsTimezone": "SA Western Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "Curaçao, CW, Curacao"
+  },
+  {
+    "country": "Cyprus",
+    "iso2": "CY",
+    "cityRegion": "Famagusta",
+    "usStates": "",
+    "ianaTimezone": "Asia/Famagusta",
+    "windowsTimezone": "GTB Standard Time",
+    "utcOffset": "UTC+03:00",
+    "searchKeywords": "Cyprus, CY, Famagusta"
+  },
+  {
+    "country": "Cyprus",
+    "iso2": "CY",
+    "cityRegion": "Nicosia",
+    "usStates": "",
+    "ianaTimezone": "Asia/Nicosia",
+    "windowsTimezone": "GTB Standard Time",
+    "utcOffset": "UTC+03:00",
+    "searchKeywords": "Cyprus, CY, Nicosia"
+  },
+  {
+    "country": "Czechia",
+    "iso2": "CZ",
+    "cityRegion": "Prague",
+    "usStates": "",
+    "ianaTimezone": "Europe/Prague",
+    "windowsTimezone": "Central Europe Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Czechia, CZ, Prague"
+  },
+  {
+    "country": "Denmark",
+    "iso2": "DK",
+    "cityRegion": "Copenhagen",
+    "usStates": "",
+    "ianaTimezone": "Europe/Copenhagen",
+    "windowsTimezone": "Romance Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Denmark, DK, Copenhagen"
+  },
+  {
+    "country": "Djibouti",
+    "iso2": "DJ",
+    "cityRegion": "Djibouti",
+    "usStates": "",
+    "ianaTimezone": "Africa/Djibouti",
+    "windowsTimezone": "E. Africa Standard Time",
+    "utcOffset": "UTC+03:00",
+    "searchKeywords": "Djibouti, DJ, Djibouti"
+  },
+  {
+    "country": "Dominica",
+    "iso2": "DM",
+    "cityRegion": "Dominica",
+    "usStates": "",
+    "ianaTimezone": "America/Dominica",
+    "windowsTimezone": "SA Western Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "Dominica, DM, Dominica"
+  },
+  {
+    "country": "Dominican Republic",
+    "iso2": "DO",
+    "cityRegion": "Santo Domingo",
+    "usStates": "",
+    "ianaTimezone": "America/Santo_Domingo",
+    "windowsTimezone": "SA Western Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "Dominican Republic, DO, Santo Domingo"
+  },
+  {
+    "country": "Ecuador",
+    "iso2": "EC",
+    "cityRegion": "Galapagos",
+    "usStates": "",
+    "ianaTimezone": "Pacific/Galapagos",
+    "windowsTimezone": "Central America Standard Time",
+    "utcOffset": "UTC-06:00",
+    "searchKeywords": "Ecuador, EC, Galapagos"
+  },
+  {
+    "country": "Ecuador",
+    "iso2": "EC",
+    "cityRegion": "Guayaquil",
+    "usStates": "",
+    "ianaTimezone": "America/Guayaquil",
+    "windowsTimezone": "SA Pacific Standard Time",
+    "utcOffset": "UTC-05:00",
+    "searchKeywords": "Ecuador, EC, Guayaquil"
+  },
+  {
+    "country": "Egypt",
+    "iso2": "EG",
+    "cityRegion": "Cairo",
+    "usStates": "",
+    "ianaTimezone": "Africa/Cairo",
+    "windowsTimezone": "Egypt Standard Time",
+    "utcOffset": "UTC+03:00",
+    "searchKeywords": "Egypt, EG, Cairo"
+  },
+  {
+    "country": "El Salvador",
+    "iso2": "SV",
+    "cityRegion": "El Salvador",
+    "usStates": "",
+    "ianaTimezone": "America/El_Salvador",
+    "windowsTimezone": "Central America Standard Time",
+    "utcOffset": "UTC-06:00",
+    "searchKeywords": "El Salvador, SV, El Salvador"
+  },
+  {
+    "country": "Equatorial Guinea",
+    "iso2": "GQ",
+    "cityRegion": "Malabo",
+    "usStates": "",
+    "ianaTimezone": "Africa/Malabo",
+    "windowsTimezone": "W. Central Africa Standard Time",
+    "utcOffset": "UTC+01:00",
+    "searchKeywords": "Equatorial Guinea, GQ, Malabo"
+  },
+  {
+    "country": "Eritrea",
+    "iso2": "ER",
+    "cityRegion": "Asmara",
+    "usStates": "",
+    "ianaTimezone": "Africa/Asmara",
+    "windowsTimezone": "E. Africa Standard Time",
+    "utcOffset": "UTC+03:00",
+    "searchKeywords": "Eritrea, ER, Asmara"
+  },
+  {
+    "country": "Estonia",
+    "iso2": "EE",
+    "cityRegion": "Tallinn",
+    "usStates": "",
+    "ianaTimezone": "Europe/Tallinn",
+    "windowsTimezone": "FLE Standard Time",
+    "utcOffset": "UTC+03:00",
+    "searchKeywords": "Estonia, EE, Tallinn"
+  },
+  {
+    "country": "Eswatini",
+    "iso2": "SZ",
+    "cityRegion": "Mbabane",
+    "usStates": "",
+    "ianaTimezone": "Africa/Mbabane",
+    "windowsTimezone": "South Africa Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Eswatini, SZ, Mbabane"
+  },
+  {
+    "country": "Ethiopia",
+    "iso2": "ET",
+    "cityRegion": "Addis Ababa",
+    "usStates": "",
+    "ianaTimezone": "Africa/Addis_Ababa",
+    "windowsTimezone": "E. Africa Standard Time",
+    "utcOffset": "UTC+03:00",
+    "searchKeywords": "Ethiopia, ET, Addis Ababa"
+  },
+  {
+    "country": "Falkland Islands (Malvinas)",
+    "iso2": "FK",
+    "cityRegion": "Stanley",
+    "usStates": "",
+    "ianaTimezone": "Atlantic/Stanley",
+    "windowsTimezone": "SA Eastern Standard Time",
+    "utcOffset": "UTC-03:00",
+    "searchKeywords": "Falkland Islands (Malvinas), FK, Stanley"
+  },
+  {
+    "country": "Faroe Islands",
+    "iso2": "FO",
+    "cityRegion": "Faroe",
+    "usStates": "",
+    "ianaTimezone": "Atlantic/Faroe",
+    "windowsTimezone": "GMT Standard Time",
+    "utcOffset": "UTC+01:00",
+    "searchKeywords": "Faroe Islands, FO, Faroe"
+  },
+  {
+    "country": "Fiji",
+    "iso2": "FJ",
+    "cityRegion": "Fiji",
+    "usStates": "",
+    "ianaTimezone": "Pacific/Fiji",
+    "windowsTimezone": "Fiji Standard Time",
+    "utcOffset": "UTC+12:00",
+    "searchKeywords": "Fiji, FJ, Fiji"
+  },
+  {
+    "country": "Finland",
+    "iso2": "FI",
+    "cityRegion": "Helsinki",
+    "usStates": "",
+    "ianaTimezone": "Europe/Helsinki",
+    "windowsTimezone": "FLE Standard Time",
+    "utcOffset": "UTC+03:00",
+    "searchKeywords": "Finland, FI, Helsinki"
+  },
+  {
+    "country": "France",
+    "iso2": "FR",
+    "cityRegion": "Paris",
+    "usStates": "",
+    "ianaTimezone": "Europe/Paris",
+    "windowsTimezone": "Romance Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "France, FR, Paris"
+  },
+  {
+    "country": "French Guiana",
+    "iso2": "GF",
+    "cityRegion": "Cayenne",
+    "usStates": "",
+    "ianaTimezone": "America/Cayenne",
+    "windowsTimezone": "SA Eastern Standard Time",
+    "utcOffset": "UTC-03:00",
+    "searchKeywords": "French Guiana, GF, Cayenne"
+  },
+  {
+    "country": "French Polynesia",
+    "iso2": "PF",
+    "cityRegion": "Gambier",
+    "usStates": "",
+    "ianaTimezone": "Pacific/Gambier",
+    "windowsTimezone": "UTC-09",
+    "utcOffset": "UTC-09:00",
+    "searchKeywords": "French Polynesia, PF, Gambier"
+  },
+  {
+    "country": "French Polynesia",
+    "iso2": "PF",
+    "cityRegion": "Marquesas",
+    "usStates": "",
+    "ianaTimezone": "Pacific/Marquesas",
+    "windowsTimezone": "Marquesas Standard Time",
+    "utcOffset": "UTC-09:30",
+    "searchKeywords": "French Polynesia, PF, Marquesas"
+  },
+  {
+    "country": "French Polynesia",
+    "iso2": "PF",
+    "cityRegion": "Tahiti",
+    "usStates": "",
+    "ianaTimezone": "Pacific/Tahiti",
+    "windowsTimezone": "Hawaiian Standard Time",
+    "utcOffset": "UTC-10:00",
+    "searchKeywords": "French Polynesia, PF, Tahiti"
+  },
+  {
+    "country": "French Southern Territories",
+    "iso2": "TF",
+    "cityRegion": "Kerguelen",
+    "usStates": "",
+    "ianaTimezone": "Indian/Kerguelen",
+    "windowsTimezone": "West Asia Standard Time",
+    "utcOffset": "UTC+05:00",
+    "searchKeywords": "French Southern Territories, TF, Kerguelen"
+  },
+  {
+    "country": "Gabon",
+    "iso2": "GA",
+    "cityRegion": "Libreville",
+    "usStates": "",
+    "ianaTimezone": "Africa/Libreville",
+    "windowsTimezone": "W. Central Africa Standard Time",
+    "utcOffset": "UTC+01:00",
+    "searchKeywords": "Gabon, GA, Libreville"
+  },
+  {
+    "country": "Gambia",
+    "iso2": "GM",
+    "cityRegion": "Banjul",
+    "usStates": "",
+    "ianaTimezone": "Africa/Banjul",
+    "windowsTimezone": "Greenwich Standard Time",
+    "utcOffset": "UTC+00:00",
+    "searchKeywords": "Gambia, GM, Banjul"
+  },
+  {
+    "country": "Georgia",
+    "iso2": "GE",
+    "cityRegion": "Tbilisi",
+    "usStates": "",
+    "ianaTimezone": "Asia/Tbilisi",
+    "windowsTimezone": "Georgian Standard Time",
+    "utcOffset": "UTC+04:00",
+    "searchKeywords": "Georgia, GE, Tbilisi"
+  },
+  {
+    "country": "Germany",
+    "iso2": "DE",
+    "cityRegion": "Berlin",
+    "usStates": "",
+    "ianaTimezone": "Europe/Berlin",
+    "windowsTimezone": "W. Europe Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Germany, DE, Berlin"
+  },
+  {
+    "country": "Germany",
+    "iso2": "DE",
+    "cityRegion": "Busingen",
+    "usStates": "",
+    "ianaTimezone": "Europe/Busingen",
+    "windowsTimezone": "W. Europe Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Germany, DE, Busingen"
+  },
+  {
+    "country": "Ghana",
+    "iso2": "GH",
+    "cityRegion": "Accra",
+    "usStates": "",
+    "ianaTimezone": "Africa/Accra",
+    "windowsTimezone": "Greenwich Standard Time",
+    "utcOffset": "UTC+00:00",
+    "searchKeywords": "Ghana, GH, Accra"
+  },
+  {
+    "country": "Gibraltar",
+    "iso2": "GI",
+    "cityRegion": "Gibraltar",
+    "usStates": "",
+    "ianaTimezone": "Europe/Gibraltar",
+    "windowsTimezone": "W. Europe Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Gibraltar, GI, Gibraltar"
+  },
+  {
+    "country": "Greece",
+    "iso2": "GR",
+    "cityRegion": "Athens",
+    "usStates": "",
+    "ianaTimezone": "Europe/Athens",
+    "windowsTimezone": "GTB Standard Time",
+    "utcOffset": "UTC+03:00",
+    "searchKeywords": "Greece, GR, Athens"
+  },
+  {
+    "country": "Greenland",
+    "iso2": "GL",
+    "cityRegion": "Danmarkshavn",
+    "usStates": "",
+    "ianaTimezone": "America/Danmarkshavn",
+    "windowsTimezone": "Greenwich Standard Time",
+    "utcOffset": "UTC+00:00",
+    "searchKeywords": "Greenland, GL, Danmarkshavn"
+  },
+  {
+    "country": "Greenland",
+    "iso2": "GL",
+    "cityRegion": "Nuuk",
+    "usStates": "",
+    "ianaTimezone": "America/Nuuk",
+    "windowsTimezone": "Greenland Standard Time",
+    "utcOffset": "UTC-01:00",
+    "searchKeywords": "Greenland, GL, Nuuk"
+  },
+  {
+    "country": "Greenland",
+    "iso2": "GL",
+    "cityRegion": "Scoresbysund",
+    "usStates": "",
+    "ianaTimezone": "America/Scoresbysund",
+    "windowsTimezone": "Azores Standard Time",
+    "utcOffset": "UTC-01:00",
+    "searchKeywords": "Greenland, GL, Scoresbysund"
+  },
+  {
+    "country": "Greenland",
+    "iso2": "GL",
+    "cityRegion": "Thule",
+    "usStates": "",
+    "ianaTimezone": "America/Thule",
+    "windowsTimezone": "Atlantic Standard Time",
+    "utcOffset": "UTC-03:00",
+    "searchKeywords": "Greenland, GL, Thule"
+  },
+  {
+    "country": "Grenada",
+    "iso2": "GD",
+    "cityRegion": "Grenada",
+    "usStates": "",
+    "ianaTimezone": "America/Grenada",
+    "windowsTimezone": "SA Western Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "Grenada, GD, Grenada"
+  },
+  {
+    "country": "Guadeloupe",
+    "iso2": "GP",
+    "cityRegion": "Guadeloupe",
+    "usStates": "",
+    "ianaTimezone": "America/Guadeloupe",
+    "windowsTimezone": "SA Western Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "Guadeloupe, GP, Guadeloupe"
+  },
+  {
+    "country": "Guam",
+    "iso2": "GU",
+    "cityRegion": "Guam",
+    "usStates": "",
+    "ianaTimezone": "Pacific/Guam",
+    "windowsTimezone": "West Pacific Standard Time",
+    "utcOffset": "UTC+10:00",
+    "searchKeywords": "Guam, GU, Guam"
+  },
+  {
+    "country": "Guatemala",
+    "iso2": "GT",
+    "cityRegion": "Guatemala",
+    "usStates": "",
+    "ianaTimezone": "America/Guatemala",
+    "windowsTimezone": "Central America Standard Time",
+    "utcOffset": "UTC-06:00",
+    "searchKeywords": "Guatemala, GT, Guatemala"
+  },
+  {
+    "country": "Guernsey",
+    "iso2": "GG",
+    "cityRegion": "Guernsey",
+    "usStates": "",
+    "ianaTimezone": "Europe/Guernsey",
+    "windowsTimezone": "GMT Standard Time",
+    "utcOffset": "UTC+01:00",
+    "searchKeywords": "Guernsey, GG, Guernsey"
+  },
+  {
+    "country": "Guinea",
+    "iso2": "GN",
+    "cityRegion": "Conakry",
+    "usStates": "",
+    "ianaTimezone": "Africa/Conakry",
+    "windowsTimezone": "Greenwich Standard Time",
+    "utcOffset": "UTC+00:00",
+    "searchKeywords": "Guinea, GN, Conakry"
+  },
+  {
+    "country": "Guinea-Bissau",
+    "iso2": "GW",
+    "cityRegion": "Bissau",
+    "usStates": "",
+    "ianaTimezone": "Africa/Bissau",
+    "windowsTimezone": "Greenwich Standard Time",
+    "utcOffset": "UTC+00:00",
+    "searchKeywords": "Guinea-Bissau, GW, Bissau"
+  },
+  {
+    "country": "Guyana",
+    "iso2": "GY",
+    "cityRegion": "Guyana",
+    "usStates": "",
+    "ianaTimezone": "America/Guyana",
+    "windowsTimezone": "SA Western Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "Guyana, GY, Guyana"
+  },
+  {
+    "country": "Haiti",
+    "iso2": "HT",
+    "cityRegion": "Port-au-Prince",
+    "usStates": "",
+    "ianaTimezone": "America/Port-au-Prince",
+    "windowsTimezone": "Haiti Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "Haiti, HT, Port-au-Prince"
+  },
+  {
+    "country": "Holy See (Vatican City State)",
+    "iso2": "VA",
+    "cityRegion": "Vatican",
+    "usStates": "",
+    "ianaTimezone": "Europe/Vatican",
+    "windowsTimezone": "W. Europe Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Holy See (Vatican City State), VA, Vatican"
+  },
+  {
+    "country": "Honduras",
+    "iso2": "HN",
+    "cityRegion": "Tegucigalpa",
+    "usStates": "",
+    "ianaTimezone": "America/Tegucigalpa",
+    "windowsTimezone": "Central America Standard Time",
+    "utcOffset": "UTC-06:00",
+    "searchKeywords": "Honduras, HN, Tegucigalpa"
+  },
+  {
+    "country": "Hong Kong",
+    "iso2": "HK",
+    "cityRegion": "Hong Kong",
+    "usStates": "",
+    "ianaTimezone": "Asia/Hong_Kong",
+    "windowsTimezone": "China Standard Time",
+    "utcOffset": "UTC+08:00",
+    "searchKeywords": "Hong Kong, HK, Hong Kong"
+  },
+  {
+    "country": "Hungary",
+    "iso2": "HU",
+    "cityRegion": "Budapest",
+    "usStates": "",
+    "ianaTimezone": "Europe/Budapest",
+    "windowsTimezone": "Central Europe Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Hungary, HU, Budapest"
+  },
+  {
+    "country": "Iceland",
+    "iso2": "IS",
+    "cityRegion": "Reykjavik",
+    "usStates": "",
+    "ianaTimezone": "Atlantic/Reykjavik",
+    "windowsTimezone": "Greenwich Standard Time",
+    "utcOffset": "UTC+00:00",
+    "searchKeywords": "Iceland, IS, Reykjavik"
+  },
+  {
+    "country": "India",
+    "iso2": "IN",
+    "cityRegion": "Kolkata",
+    "usStates": "",
+    "ianaTimezone": "Asia/Kolkata",
+    "windowsTimezone": "India Standard Time",
+    "utcOffset": "UTC+05:30",
+    "searchKeywords": "India, IN, Kolkata"
+  },
+  {
+    "country": "Indonesia",
+    "iso2": "ID",
+    "cityRegion": "Jakarta",
+    "usStates": "",
+    "ianaTimezone": "Asia/Jakarta",
+    "windowsTimezone": "SE Asia Standard Time",
+    "utcOffset": "UTC+07:00",
+    "searchKeywords": "Indonesia, ID, Jakarta"
+  },
+  {
+    "country": "Indonesia",
+    "iso2": "ID",
+    "cityRegion": "Jayapura",
+    "usStates": "",
+    "ianaTimezone": "Asia/Jayapura",
+    "windowsTimezone": "Tokyo Standard Time",
+    "utcOffset": "UTC+09:00",
+    "searchKeywords": "Indonesia, ID, Jayapura"
+  },
+  {
+    "country": "Indonesia",
+    "iso2": "ID",
+    "cityRegion": "Makassar",
+    "usStates": "",
+    "ianaTimezone": "Asia/Makassar",
+    "windowsTimezone": "Singapore Standard Time",
+    "utcOffset": "UTC+08:00",
+    "searchKeywords": "Indonesia, ID, Makassar"
+  },
+  {
+    "country": "Indonesia",
+    "iso2": "ID",
+    "cityRegion": "Pontianak",
+    "usStates": "",
+    "ianaTimezone": "Asia/Pontianak",
+    "windowsTimezone": "SE Asia Standard Time",
+    "utcOffset": "UTC+07:00",
+    "searchKeywords": "Indonesia, ID, Pontianak"
+  },
+  {
+    "country": "Iran, Islamic Republic of",
+    "iso2": "IR",
+    "cityRegion": "Tehran",
+    "usStates": "",
+    "ianaTimezone": "Asia/Tehran",
+    "windowsTimezone": "Iran Standard Time",
+    "utcOffset": "UTC+03:30",
+    "searchKeywords": "Iran, Islamic Republic of, IR, Tehran"
+  },
+  {
+    "country": "Iraq",
+    "iso2": "IQ",
+    "cityRegion": "Baghdad",
+    "usStates": "",
+    "ianaTimezone": "Asia/Baghdad",
+    "windowsTimezone": "Arabic Standard Time",
+    "utcOffset": "UTC+03:00",
+    "searchKeywords": "Iraq, IQ, Baghdad"
+  },
+  {
+    "country": "Ireland",
+    "iso2": "IE",
+    "cityRegion": "Dublin",
+    "usStates": "",
+    "ianaTimezone": "Europe/Dublin",
+    "windowsTimezone": "GMT Standard Time",
+    "utcOffset": "UTC+01:00",
+    "searchKeywords": "Ireland, IE, Dublin"
+  },
+  {
+    "country": "Isle of Man",
+    "iso2": "IM",
+    "cityRegion": "Isle of Man",
+    "usStates": "",
+    "ianaTimezone": "Europe/Isle_of_Man",
+    "windowsTimezone": "GMT Standard Time",
+    "utcOffset": "UTC+01:00",
+    "searchKeywords": "Isle of Man, IM, Isle of Man"
+  },
+  {
+    "country": "Israel",
+    "iso2": "IL",
+    "cityRegion": "Jerusalem",
+    "usStates": "",
+    "ianaTimezone": "Asia/Jerusalem",
+    "windowsTimezone": "Israel Standard Time",
+    "utcOffset": "UTC+03:00",
+    "searchKeywords": "Israel, IL, Jerusalem"
+  },
+  {
+    "country": "Italy",
+    "iso2": "IT",
+    "cityRegion": "Rome",
+    "usStates": "",
+    "ianaTimezone": "Europe/Rome",
+    "windowsTimezone": "W. Europe Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Italy, IT, Rome"
+  },
+  {
+    "country": "Jamaica",
+    "iso2": "JM",
+    "cityRegion": "Jamaica",
+    "usStates": "",
+    "ianaTimezone": "America/Jamaica",
+    "windowsTimezone": "SA Pacific Standard Time",
+    "utcOffset": "UTC-05:00",
+    "searchKeywords": "Jamaica, JM, Jamaica"
+  },
+  {
+    "country": "Japan",
+    "iso2": "JP",
+    "cityRegion": "Tokyo",
+    "usStates": "",
+    "ianaTimezone": "Asia/Tokyo",
+    "windowsTimezone": "Tokyo Standard Time",
+    "utcOffset": "UTC+09:00",
+    "searchKeywords": "Japan, JP, Tokyo"
+  },
+  {
+    "country": "Jersey",
+    "iso2": "JE",
+    "cityRegion": "Jersey",
+    "usStates": "",
+    "ianaTimezone": "Europe/Jersey",
+    "windowsTimezone": "GMT Standard Time",
+    "utcOffset": "UTC+01:00",
+    "searchKeywords": "Jersey, JE, Jersey"
+  },
+  {
+    "country": "Jordan",
+    "iso2": "JO",
+    "cityRegion": "Amman",
+    "usStates": "",
+    "ianaTimezone": "Asia/Amman",
+    "windowsTimezone": "Jordan Standard Time",
+    "utcOffset": "UTC+03:00",
+    "searchKeywords": "Jordan, JO, Amman"
+  },
+  {
+    "country": "Kazakhstan",
+    "iso2": "KZ",
+    "cityRegion": "Almaty",
+    "usStates": "",
+    "ianaTimezone": "Asia/Almaty",
+    "windowsTimezone": "West Asia Standard Time",
+    "utcOffset": "UTC+05:00",
+    "searchKeywords": "Kazakhstan, KZ, Almaty"
+  },
+  {
+    "country": "Kazakhstan",
+    "iso2": "KZ",
+    "cityRegion": "Aqtau",
+    "usStates": "",
+    "ianaTimezone": "Asia/Aqtau",
+    "windowsTimezone": "West Asia Standard Time",
+    "utcOffset": "UTC+05:00",
+    "searchKeywords": "Kazakhstan, KZ, Aqtau"
+  },
+  {
+    "country": "Kazakhstan",
+    "iso2": "KZ",
+    "cityRegion": "Aqtobe",
+    "usStates": "",
+    "ianaTimezone": "Asia/Aqtobe",
+    "windowsTimezone": "West Asia Standard Time",
+    "utcOffset": "UTC+05:00",
+    "searchKeywords": "Kazakhstan, KZ, Aqtobe"
+  },
+  {
+    "country": "Kazakhstan",
+    "iso2": "KZ",
+    "cityRegion": "Atyrau",
+    "usStates": "",
+    "ianaTimezone": "Asia/Atyrau",
+    "windowsTimezone": "West Asia Standard Time",
+    "utcOffset": "UTC+05:00",
+    "searchKeywords": "Kazakhstan, KZ, Atyrau"
+  },
+  {
+    "country": "Kazakhstan",
+    "iso2": "KZ",
+    "cityRegion": "Oral",
+    "usStates": "",
+    "ianaTimezone": "Asia/Oral",
+    "windowsTimezone": "West Asia Standard Time",
+    "utcOffset": "UTC+05:00",
+    "searchKeywords": "Kazakhstan, KZ, Oral"
+  },
+  {
+    "country": "Kazakhstan",
+    "iso2": "KZ",
+    "cityRegion": "Qostanay",
+    "usStates": "",
+    "ianaTimezone": "Asia/Qostanay",
+    "windowsTimezone": "West Asia Standard Time",
+    "utcOffset": "UTC+05:00",
+    "searchKeywords": "Kazakhstan, KZ, Qostanay"
+  },
+  {
+    "country": "Kazakhstan",
+    "iso2": "KZ",
+    "cityRegion": "Qyzylorda",
+    "usStates": "",
+    "ianaTimezone": "Asia/Qyzylorda",
+    "windowsTimezone": "Qyzylorda Standard Time",
+    "utcOffset": "UTC+05:00",
+    "searchKeywords": "Kazakhstan, KZ, Qyzylorda"
+  },
+  {
+    "country": "Kenya",
+    "iso2": "KE",
+    "cityRegion": "Nairobi",
+    "usStates": "",
+    "ianaTimezone": "Africa/Nairobi",
+    "windowsTimezone": "E. Africa Standard Time",
+    "utcOffset": "UTC+03:00",
+    "searchKeywords": "Kenya, KE, Nairobi"
+  },
+  {
+    "country": "Kiribati",
+    "iso2": "KI",
+    "cityRegion": "Kanton",
+    "usStates": "",
+    "ianaTimezone": "Pacific/Kanton",
+    "windowsTimezone": "Tonga Standard Time",
+    "utcOffset": "UTC+13:00",
+    "searchKeywords": "Kiribati, KI, Kanton"
+  },
+  {
+    "country": "Kiribati",
+    "iso2": "KI",
+    "cityRegion": "Kiritimati",
+    "usStates": "",
+    "ianaTimezone": "Pacific/Kiritimati",
+    "windowsTimezone": "Line Islands Standard Time",
+    "utcOffset": "UTC+14:00",
+    "searchKeywords": "Kiribati, KI, Kiritimati"
+  },
+  {
+    "country": "Kiribati",
+    "iso2": "KI",
+    "cityRegion": "Tarawa",
+    "usStates": "",
+    "ianaTimezone": "Pacific/Tarawa",
+    "windowsTimezone": "UTC+12",
+    "utcOffset": "UTC+12:00",
+    "searchKeywords": "Kiribati, KI, Tarawa"
+  },
+  {
+    "country": "Korea, Democratic People's Republic of",
+    "iso2": "KP",
+    "cityRegion": "Pyongyang",
+    "usStates": "",
+    "ianaTimezone": "Asia/Pyongyang",
+    "windowsTimezone": "North Korea Standard Time",
+    "utcOffset": "UTC+09:00",
+    "searchKeywords": "Korea, Democratic People's Republic of, KP, Pyongyang"
+  },
+  {
+    "country": "Korea, Republic of",
+    "iso2": "KR",
+    "cityRegion": "Seoul",
+    "usStates": "",
+    "ianaTimezone": "Asia/Seoul",
+    "windowsTimezone": "Korea Standard Time",
+    "utcOffset": "UTC+09:00",
+    "searchKeywords": "Korea, Republic of, KR, Seoul"
+  },
+  {
+    "country": "Kuwait",
+    "iso2": "KW",
+    "cityRegion": "Kuwait",
+    "usStates": "",
+    "ianaTimezone": "Asia/Kuwait",
+    "windowsTimezone": "Arab Standard Time",
+    "utcOffset": "UTC+03:00",
+    "searchKeywords": "Kuwait, KW, Kuwait"
+  },
+  {
+    "country": "Kyrgyzstan",
+    "iso2": "KG",
+    "cityRegion": "Bishkek",
+    "usStates": "",
+    "ianaTimezone": "Asia/Bishkek",
+    "windowsTimezone": "Central Asia Standard Time",
+    "utcOffset": "UTC+06:00",
+    "searchKeywords": "Kyrgyzstan, KG, Bishkek"
+  },
+  {
+    "country": "Lao People's Democratic Republic",
+    "iso2": "LA",
+    "cityRegion": "Vientiane",
+    "usStates": "",
+    "ianaTimezone": "Asia/Vientiane",
+    "windowsTimezone": "SE Asia Standard Time",
+    "utcOffset": "UTC+07:00",
+    "searchKeywords": "Lao People's Democratic Republic, LA, Vientiane"
+  },
+  {
+    "country": "Latvia",
+    "iso2": "LV",
+    "cityRegion": "Riga",
+    "usStates": "",
+    "ianaTimezone": "Europe/Riga",
+    "windowsTimezone": "FLE Standard Time",
+    "utcOffset": "UTC+03:00",
+    "searchKeywords": "Latvia, LV, Riga"
+  },
+  {
+    "country": "Lebanon",
+    "iso2": "LB",
+    "cityRegion": "Beirut",
+    "usStates": "",
+    "ianaTimezone": "Asia/Beirut",
+    "windowsTimezone": "Middle East Standard Time",
+    "utcOffset": "UTC+03:00",
+    "searchKeywords": "Lebanon, LB, Beirut"
+  },
+  {
+    "country": "Lesotho",
+    "iso2": "LS",
+    "cityRegion": "Maseru",
+    "usStates": "",
+    "ianaTimezone": "Africa/Maseru",
+    "windowsTimezone": "South Africa Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Lesotho, LS, Maseru"
+  },
+  {
+    "country": "Liberia",
+    "iso2": "LR",
+    "cityRegion": "Monrovia",
+    "usStates": "",
+    "ianaTimezone": "Africa/Monrovia",
+    "windowsTimezone": "Greenwich Standard Time",
+    "utcOffset": "UTC+00:00",
+    "searchKeywords": "Liberia, LR, Monrovia"
+  },
+  {
+    "country": "Libya",
+    "iso2": "LY",
+    "cityRegion": "Tripoli",
+    "usStates": "",
+    "ianaTimezone": "Africa/Tripoli",
+    "windowsTimezone": "Libya Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Libya, LY, Tripoli"
+  },
+  {
+    "country": "Liechtenstein",
+    "iso2": "LI",
+    "cityRegion": "Vaduz",
+    "usStates": "",
+    "ianaTimezone": "Europe/Vaduz",
+    "windowsTimezone": "W. Europe Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Liechtenstein, LI, Vaduz"
+  },
+  {
+    "country": "Lithuania",
+    "iso2": "LT",
+    "cityRegion": "Vilnius",
+    "usStates": "",
+    "ianaTimezone": "Europe/Vilnius",
+    "windowsTimezone": "FLE Standard Time",
+    "utcOffset": "UTC+03:00",
+    "searchKeywords": "Lithuania, LT, Vilnius"
+  },
+  {
+    "country": "Luxembourg",
+    "iso2": "LU",
+    "cityRegion": "Luxembourg",
+    "usStates": "",
+    "ianaTimezone": "Europe/Luxembourg",
+    "windowsTimezone": "W. Europe Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Luxembourg, LU, Luxembourg"
+  },
+  {
+    "country": "Macao",
+    "iso2": "MO",
+    "cityRegion": "Macau",
+    "usStates": "",
+    "ianaTimezone": "Asia/Macau",
+    "windowsTimezone": "China Standard Time",
+    "utcOffset": "UTC+08:00",
+    "searchKeywords": "Macao, MO, Macau"
+  },
+  {
+    "country": "Madagascar",
+    "iso2": "MG",
+    "cityRegion": "Antananarivo",
+    "usStates": "",
+    "ianaTimezone": "Indian/Antananarivo",
+    "windowsTimezone": "E. Africa Standard Time",
+    "utcOffset": "UTC+03:00",
+    "searchKeywords": "Madagascar, MG, Antananarivo"
+  },
+  {
+    "country": "Malawi",
+    "iso2": "MW",
+    "cityRegion": "Blantyre",
+    "usStates": "",
+    "ianaTimezone": "Africa/Blantyre",
+    "windowsTimezone": "South Africa Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Malawi, MW, Blantyre"
+  },
+  {
+    "country": "Malaysia",
+    "iso2": "MY",
+    "cityRegion": "Kuala Lumpur",
+    "usStates": "",
+    "ianaTimezone": "Asia/Kuala_Lumpur",
+    "windowsTimezone": "Singapore Standard Time",
+    "utcOffset": "UTC+08:00",
+    "searchKeywords": "Malaysia, MY, Kuala Lumpur"
+  },
+  {
+    "country": "Malaysia",
+    "iso2": "MY",
+    "cityRegion": "Kuching",
+    "usStates": "",
+    "ianaTimezone": "Asia/Kuching",
+    "windowsTimezone": "Singapore Standard Time",
+    "utcOffset": "UTC+08:00",
+    "searchKeywords": "Malaysia, MY, Kuching"
+  },
+  {
+    "country": "Maldives",
+    "iso2": "MV",
+    "cityRegion": "Maldives",
+    "usStates": "",
+    "ianaTimezone": "Indian/Maldives",
+    "windowsTimezone": "West Asia Standard Time",
+    "utcOffset": "UTC+05:00",
+    "searchKeywords": "Maldives, MV, Maldives"
+  },
+  {
+    "country": "Mali",
+    "iso2": "ML",
+    "cityRegion": "Bamako",
+    "usStates": "",
+    "ianaTimezone": "Africa/Bamako",
+    "windowsTimezone": "Greenwich Standard Time",
+    "utcOffset": "UTC+00:00",
+    "searchKeywords": "Mali, ML, Bamako"
+  },
+  {
+    "country": "Malta",
+    "iso2": "MT",
+    "cityRegion": "Malta",
+    "usStates": "",
+    "ianaTimezone": "Europe/Malta",
+    "windowsTimezone": "W. Europe Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Malta, MT, Malta"
+  },
+  {
+    "country": "Marshall Islands",
+    "iso2": "MH",
+    "cityRegion": "Kwajalein",
+    "usStates": "",
+    "ianaTimezone": "Pacific/Kwajalein",
+    "windowsTimezone": "UTC+12",
+    "utcOffset": "UTC+12:00",
+    "searchKeywords": "Marshall Islands, MH, Kwajalein"
+  },
+  {
+    "country": "Marshall Islands",
+    "iso2": "MH",
+    "cityRegion": "Majuro",
+    "usStates": "",
+    "ianaTimezone": "Pacific/Majuro",
+    "windowsTimezone": "UTC+12",
+    "utcOffset": "UTC+12:00",
+    "searchKeywords": "Marshall Islands, MH, Majuro"
+  },
+  {
+    "country": "Martinique",
+    "iso2": "MQ",
+    "cityRegion": "Martinique",
+    "usStates": "",
+    "ianaTimezone": "America/Martinique",
+    "windowsTimezone": "SA Western Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "Martinique, MQ, Martinique"
+  },
+  {
+    "country": "Mauritania",
+    "iso2": "MR",
+    "cityRegion": "Nouakchott",
+    "usStates": "",
+    "ianaTimezone": "Africa/Nouakchott",
+    "windowsTimezone": "Greenwich Standard Time",
+    "utcOffset": "UTC+00:00",
+    "searchKeywords": "Mauritania, MR, Nouakchott"
+  },
+  {
+    "country": "Mauritius",
+    "iso2": "MU",
+    "cityRegion": "Mauritius",
+    "usStates": "",
+    "ianaTimezone": "Indian/Mauritius",
+    "windowsTimezone": "Mauritius Standard Time",
+    "utcOffset": "UTC+04:00",
+    "searchKeywords": "Mauritius, MU, Mauritius"
+  },
+  {
+    "country": "Mayotte",
+    "iso2": "YT",
+    "cityRegion": "Mayotte",
+    "usStates": "",
+    "ianaTimezone": "Indian/Mayotte",
+    "windowsTimezone": "E. Africa Standard Time",
+    "utcOffset": "UTC+03:00",
+    "searchKeywords": "Mayotte, YT, Mayotte"
+  },
+  {
+    "country": "Mexico",
+    "iso2": "MX",
+    "cityRegion": "Bahia Banderas",
+    "usStates": "",
+    "ianaTimezone": "America/Bahia_Banderas",
+    "windowsTimezone": "Central Standard Time (Mexico)",
+    "utcOffset": "UTC-06:00",
+    "searchKeywords": "Mexico, MX, Bahia Banderas"
+  },
+  {
+    "country": "Mexico",
+    "iso2": "MX",
+    "cityRegion": "Cancun",
+    "usStates": "",
+    "ianaTimezone": "America/Cancun",
+    "windowsTimezone": "Eastern Standard Time (Mexico)",
+    "utcOffset": "UTC-05:00",
+    "searchKeywords": "Mexico, MX, Cancun"
+  },
+  {
+    "country": "Mexico",
+    "iso2": "MX",
+    "cityRegion": "Chihuahua",
+    "usStates": "",
+    "ianaTimezone": "America/Chihuahua",
+    "windowsTimezone": "Central Standard Time (Mexico)",
+    "utcOffset": "UTC-06:00",
+    "searchKeywords": "Mexico, MX, Chihuahua"
+  },
+  {
+    "country": "Mexico",
+    "iso2": "MX",
+    "cityRegion": "Ciudad Juarez",
+    "usStates": "",
+    "ianaTimezone": "America/Ciudad_Juarez",
+    "windowsTimezone": "Mountain Standard Time",
+    "utcOffset": "UTC-06:00",
+    "searchKeywords": "Mexico, MX, Ciudad Juarez"
+  },
+  {
+    "country": "Mexico",
+    "iso2": "MX",
+    "cityRegion": "Hermosillo",
+    "usStates": "",
+    "ianaTimezone": "America/Hermosillo",
+    "windowsTimezone": "US Mountain Standard Time",
+    "utcOffset": "UTC-07:00",
+    "searchKeywords": "Mexico, MX, Hermosillo"
+  },
+  {
+    "country": "Mexico",
+    "iso2": "MX",
+    "cityRegion": "Matamoros",
+    "usStates": "",
+    "ianaTimezone": "America/Matamoros",
+    "windowsTimezone": "Central Standard Time",
+    "utcOffset": "UTC-05:00",
+    "searchKeywords": "Mexico, MX, Matamoros"
+  },
+  {
+    "country": "Mexico",
+    "iso2": "MX",
+    "cityRegion": "Mazatlan",
+    "usStates": "",
+    "ianaTimezone": "America/Mazatlan",
+    "windowsTimezone": "Mountain Standard Time (Mexico)",
+    "utcOffset": "UTC-07:00",
+    "searchKeywords": "Mexico, MX, Mazatlan"
+  },
+  {
+    "country": "Mexico",
+    "iso2": "MX",
+    "cityRegion": "Merida",
+    "usStates": "",
+    "ianaTimezone": "America/Merida",
+    "windowsTimezone": "Central Standard Time (Mexico)",
+    "utcOffset": "UTC-06:00",
+    "searchKeywords": "Mexico, MX, Merida"
+  },
+  {
+    "country": "Mexico",
+    "iso2": "MX",
+    "cityRegion": "Mexico City",
+    "usStates": "",
+    "ianaTimezone": "America/Mexico_City",
+    "windowsTimezone": "Central Standard Time (Mexico)",
+    "utcOffset": "UTC-06:00",
+    "searchKeywords": "Mexico, MX, Mexico City"
+  },
+  {
+    "country": "Mexico",
+    "iso2": "MX",
+    "cityRegion": "Monterrey",
+    "usStates": "",
+    "ianaTimezone": "America/Monterrey",
+    "windowsTimezone": "Central Standard Time (Mexico)",
+    "utcOffset": "UTC-06:00",
+    "searchKeywords": "Mexico, MX, Monterrey"
+  },
+  {
+    "country": "Mexico",
+    "iso2": "MX",
+    "cityRegion": "Ojinaga",
+    "usStates": "",
+    "ianaTimezone": "America/Ojinaga",
+    "windowsTimezone": "Central Standard Time",
+    "utcOffset": "UTC-05:00",
+    "searchKeywords": "Mexico, MX, Ojinaga"
+  },
+  {
+    "country": "Mexico",
+    "iso2": "MX",
+    "cityRegion": "Tijuana",
+    "usStates": "",
+    "ianaTimezone": "America/Tijuana",
+    "windowsTimezone": "Pacific Standard Time (Mexico)",
+    "utcOffset": "UTC-07:00",
+    "searchKeywords": "Mexico, MX, Tijuana"
+  },
+  {
+    "country": "Micronesia, Federated States of",
+    "iso2": "FM",
+    "cityRegion": "Chuuk",
+    "usStates": "",
+    "ianaTimezone": "Pacific/Chuuk",
+    "windowsTimezone": "West Pacific Standard Time",
+    "utcOffset": "UTC+10:00",
+    "searchKeywords": "Micronesia, Federated States of, FM, Chuuk"
+  },
+  {
+    "country": "Micronesia, Federated States of",
+    "iso2": "FM",
+    "cityRegion": "Kosrae",
+    "usStates": "",
+    "ianaTimezone": "Pacific/Kosrae",
+    "windowsTimezone": "Central Pacific Standard Time",
+    "utcOffset": "UTC+11:00",
+    "searchKeywords": "Micronesia, Federated States of, FM, Kosrae"
+  },
+  {
+    "country": "Micronesia, Federated States of",
+    "iso2": "FM",
+    "cityRegion": "Pohnpei",
+    "usStates": "",
+    "ianaTimezone": "Pacific/Pohnpei",
+    "windowsTimezone": "Central Pacific Standard Time",
+    "utcOffset": "UTC+11:00",
+    "searchKeywords": "Micronesia, Federated States of, FM, Pohnpei"
+  },
+  {
+    "country": "Moldova, Republic of",
+    "iso2": "MD",
+    "cityRegion": "Chisinau",
+    "usStates": "",
+    "ianaTimezone": "Europe/Chisinau",
+    "windowsTimezone": "E. Europe Standard Time",
+    "utcOffset": "UTC+03:00",
+    "searchKeywords": "Moldova, Republic of, MD, Chisinau"
+  },
+  {
+    "country": "Monaco",
+    "iso2": "MC",
+    "cityRegion": "Monaco",
+    "usStates": "",
+    "ianaTimezone": "Europe/Monaco",
+    "windowsTimezone": "W. Europe Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Monaco, MC, Monaco"
+  },
+  {
+    "country": "Mongolia",
+    "iso2": "MN",
+    "cityRegion": "Hovd",
+    "usStates": "",
+    "ianaTimezone": "Asia/Hovd",
+    "windowsTimezone": "W. Mongolia Standard Time",
+    "utcOffset": "UTC+07:00",
+    "searchKeywords": "Mongolia, MN, Hovd"
+  },
+  {
+    "country": "Mongolia",
+    "iso2": "MN",
+    "cityRegion": "Ulaanbaatar",
+    "usStates": "",
+    "ianaTimezone": "Asia/Ulaanbaatar",
+    "windowsTimezone": "Ulaanbaatar Standard Time",
+    "utcOffset": "UTC+08:00",
+    "searchKeywords": "Mongolia, MN, Ulaanbaatar"
+  },
+  {
+    "country": "Montenegro",
+    "iso2": "ME",
+    "cityRegion": "Podgorica",
+    "usStates": "",
+    "ianaTimezone": "Europe/Podgorica",
+    "windowsTimezone": "Central Europe Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Montenegro, ME, Podgorica"
+  },
+  {
+    "country": "Montserrat",
+    "iso2": "MS",
+    "cityRegion": "Montserrat",
+    "usStates": "",
+    "ianaTimezone": "America/Montserrat",
+    "windowsTimezone": "SA Western Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "Montserrat, MS, Montserrat"
+  },
+  {
+    "country": "Morocco",
+    "iso2": "MA",
+    "cityRegion": "Casablanca",
+    "usStates": "",
+    "ianaTimezone": "Africa/Casablanca",
+    "windowsTimezone": "Morocco Standard Time",
+    "utcOffset": "UTC+01:00",
+    "searchKeywords": "Morocco, MA, Casablanca"
+  },
+  {
+    "country": "Mozambique",
+    "iso2": "MZ",
+    "cityRegion": "Maputo",
+    "usStates": "",
+    "ianaTimezone": "Africa/Maputo",
+    "windowsTimezone": "South Africa Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Mozambique, MZ, Maputo"
+  },
+  {
+    "country": "Myanmar",
+    "iso2": "MM",
+    "cityRegion": "Yangon",
+    "usStates": "",
+    "ianaTimezone": "Asia/Yangon",
+    "windowsTimezone": "Myanmar Standard Time",
+    "utcOffset": "UTC+06:30",
+    "searchKeywords": "Myanmar, MM, Yangon"
+  },
+  {
+    "country": "Namibia",
+    "iso2": "NA",
+    "cityRegion": "Windhoek",
+    "usStates": "",
+    "ianaTimezone": "Africa/Windhoek",
+    "windowsTimezone": "Namibia Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Namibia, NA, Windhoek"
+  },
+  {
+    "country": "Nauru",
+    "iso2": "NR",
+    "cityRegion": "Nauru",
+    "usStates": "",
+    "ianaTimezone": "Pacific/Nauru",
+    "windowsTimezone": "UTC+12",
+    "utcOffset": "UTC+12:00",
+    "searchKeywords": "Nauru, NR, Nauru"
+  },
+  {
+    "country": "Nepal",
+    "iso2": "NP",
+    "cityRegion": "Kathmandu",
+    "usStates": "",
+    "ianaTimezone": "Asia/Kathmandu",
+    "windowsTimezone": "Nepal Standard Time",
+    "utcOffset": "UTC+05:45",
+    "searchKeywords": "Nepal, NP, Kathmandu"
+  },
+  {
+    "country": "Netherlands",
+    "iso2": "NL",
+    "cityRegion": "Amsterdam",
+    "usStates": "",
+    "ianaTimezone": "Europe/Amsterdam",
+    "windowsTimezone": "W. Europe Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Netherlands, NL, Amsterdam"
+  },
+  {
+    "country": "New Caledonia",
+    "iso2": "NC",
+    "cityRegion": "Noumea",
+    "usStates": "",
+    "ianaTimezone": "Pacific/Noumea",
+    "windowsTimezone": "Central Pacific Standard Time",
+    "utcOffset": "UTC+11:00",
+    "searchKeywords": "New Caledonia, NC, Noumea"
+  },
+  {
+    "country": "New Zealand",
+    "iso2": "NZ",
+    "cityRegion": "Auckland",
+    "usStates": "",
+    "ianaTimezone": "Pacific/Auckland",
+    "windowsTimezone": "New Zealand Standard Time",
+    "utcOffset": "UTC+12:00",
+    "searchKeywords": "New Zealand, NZ, Auckland"
+  },
+  {
+    "country": "New Zealand",
+    "iso2": "NZ",
+    "cityRegion": "Chatham",
+    "usStates": "",
+    "ianaTimezone": "Pacific/Chatham",
+    "windowsTimezone": "Chatham Islands Standard Time",
+    "utcOffset": "UTC+12:45",
+    "searchKeywords": "New Zealand, NZ, Chatham"
+  },
+  {
+    "country": "Nicaragua",
+    "iso2": "NI",
+    "cityRegion": "Managua",
+    "usStates": "",
+    "ianaTimezone": "America/Managua",
+    "windowsTimezone": "Central America Standard Time",
+    "utcOffset": "UTC-06:00",
+    "searchKeywords": "Nicaragua, NI, Managua"
+  },
+  {
+    "country": "Niger",
+    "iso2": "NE",
+    "cityRegion": "Niamey",
+    "usStates": "",
+    "ianaTimezone": "Africa/Niamey",
+    "windowsTimezone": "W. Central Africa Standard Time",
+    "utcOffset": "UTC+01:00",
+    "searchKeywords": "Niger, NE, Niamey"
+  },
+  {
+    "country": "Nigeria",
+    "iso2": "NG",
+    "cityRegion": "Lagos",
+    "usStates": "",
+    "ianaTimezone": "Africa/Lagos",
+    "windowsTimezone": "W. Central Africa Standard Time",
+    "utcOffset": "UTC+01:00",
+    "searchKeywords": "Nigeria, NG, Lagos"
+  },
+  {
+    "country": "Niue",
+    "iso2": "NU",
+    "cityRegion": "Niue",
+    "usStates": "",
+    "ianaTimezone": "Pacific/Niue",
+    "windowsTimezone": "UTC-11",
+    "utcOffset": "UTC-11:00",
+    "searchKeywords": "Niue, NU, Niue"
+  },
+  {
+    "country": "Norfolk Island",
+    "iso2": "NF",
+    "cityRegion": "Norfolk",
+    "usStates": "",
+    "ianaTimezone": "Pacific/Norfolk",
+    "windowsTimezone": "Norfolk Standard Time",
+    "utcOffset": "UTC+11:00",
+    "searchKeywords": "Norfolk Island, NF, Norfolk"
+  },
+  {
+    "country": "North Macedonia",
+    "iso2": "MK",
+    "cityRegion": "Skopje",
+    "usStates": "",
+    "ianaTimezone": "Europe/Skopje",
+    "windowsTimezone": "Central European Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "North Macedonia, MK, Skopje"
+  },
+  {
+    "country": "Northern Mariana Islands",
+    "iso2": "MP",
+    "cityRegion": "Saipan",
+    "usStates": "",
+    "ianaTimezone": "Pacific/Saipan",
+    "windowsTimezone": "West Pacific Standard Time",
+    "utcOffset": "UTC+10:00",
+    "searchKeywords": "Northern Mariana Islands, MP, Saipan"
+  },
+  {
+    "country": "Norway",
+    "iso2": "NO",
+    "cityRegion": "Oslo",
+    "usStates": "",
+    "ianaTimezone": "Europe/Oslo",
+    "windowsTimezone": "W. Europe Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Norway, NO, Oslo"
+  },
+  {
+    "country": "Oman",
+    "iso2": "OM",
+    "cityRegion": "Muscat",
+    "usStates": "",
+    "ianaTimezone": "Asia/Muscat",
+    "windowsTimezone": "Arabian Standard Time",
+    "utcOffset": "UTC+04:00",
+    "searchKeywords": "Oman, OM, Muscat"
+  },
+  {
+    "country": "Pakistan",
+    "iso2": "PK",
+    "cityRegion": "Karachi",
+    "usStates": "",
+    "ianaTimezone": "Asia/Karachi",
+    "windowsTimezone": "Pakistan Standard Time",
+    "utcOffset": "UTC+05:00",
+    "searchKeywords": "Pakistan, PK, Karachi"
+  },
+  {
+    "country": "Palau",
+    "iso2": "PW",
+    "cityRegion": "Palau",
+    "usStates": "",
+    "ianaTimezone": "Pacific/Palau",
+    "windowsTimezone": "Tokyo Standard Time",
+    "utcOffset": "UTC+09:00",
+    "searchKeywords": "Palau, PW, Palau"
+  },
+  {
+    "country": "Palestine, State of",
+    "iso2": "PS",
+    "cityRegion": "Gaza",
+    "usStates": "",
+    "ianaTimezone": "Asia/Gaza",
+    "windowsTimezone": "West Bank Standard Time",
+    "utcOffset": "UTC+03:00",
+    "searchKeywords": "Palestine, State of, PS, Gaza"
+  },
+  {
+    "country": "Palestine, State of",
+    "iso2": "PS",
+    "cityRegion": "Hebron",
+    "usStates": "",
+    "ianaTimezone": "Asia/Hebron",
+    "windowsTimezone": "West Bank Standard Time",
+    "utcOffset": "UTC+03:00",
+    "searchKeywords": "Palestine, State of, PS, Hebron"
+  },
+  {
+    "country": "Panama",
+    "iso2": "PA",
+    "cityRegion": "Panama",
+    "usStates": "",
+    "ianaTimezone": "America/Panama",
+    "windowsTimezone": "SA Pacific Standard Time",
+    "utcOffset": "UTC-05:00",
+    "searchKeywords": "Panama, PA, Panama"
+  },
+  {
+    "country": "Papua New Guinea",
+    "iso2": "PG",
+    "cityRegion": "Bougainville",
+    "usStates": "",
+    "ianaTimezone": "Pacific/Bougainville",
+    "windowsTimezone": "Bougainville Standard Time",
+    "utcOffset": "UTC+11:00",
+    "searchKeywords": "Papua New Guinea, PG, Bougainville"
+  },
+  {
+    "country": "Papua New Guinea",
+    "iso2": "PG",
+    "cityRegion": "Port Moresby",
+    "usStates": "",
+    "ianaTimezone": "Pacific/Port_Moresby",
+    "windowsTimezone": "West Pacific Standard Time",
+    "utcOffset": "UTC+10:00",
+    "searchKeywords": "Papua New Guinea, PG, Port Moresby"
+  },
+  {
+    "country": "Paraguay",
+    "iso2": "PY",
+    "cityRegion": "Asuncion",
+    "usStates": "",
+    "ianaTimezone": "America/Asuncion",
+    "windowsTimezone": "Paraguay Standard Time",
+    "utcOffset": "UTC-03:00",
+    "searchKeywords": "Paraguay, PY, Asuncion"
+  },
+  {
+    "country": "Peru",
+    "iso2": "PE",
+    "cityRegion": "Lima",
+    "usStates": "",
+    "ianaTimezone": "America/Lima",
+    "windowsTimezone": "SA Pacific Standard Time",
+    "utcOffset": "UTC-05:00",
+    "searchKeywords": "Peru, PE, Lima"
+  },
+  {
+    "country": "Philippines",
+    "iso2": "PH",
+    "cityRegion": "Manila",
+    "usStates": "",
+    "ianaTimezone": "Asia/Manila",
+    "windowsTimezone": "Singapore Standard Time",
+    "utcOffset": "UTC+08:00",
+    "searchKeywords": "Philippines, PH, Manila"
+  },
+  {
+    "country": "Pitcairn",
+    "iso2": "PN",
+    "cityRegion": "Pitcairn",
+    "usStates": "",
+    "ianaTimezone": "Pacific/Pitcairn",
+    "windowsTimezone": "UTC-08",
+    "utcOffset": "UTC-08:00",
+    "searchKeywords": "Pitcairn, PN, Pitcairn"
+  },
+  {
+    "country": "Poland",
+    "iso2": "PL",
+    "cityRegion": "Warsaw",
+    "usStates": "",
+    "ianaTimezone": "Europe/Warsaw",
+    "windowsTimezone": "Central European Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Poland, PL, Warsaw"
+  },
+  {
+    "country": "Portugal",
+    "iso2": "PT",
+    "cityRegion": "Azores",
+    "usStates": "",
+    "ianaTimezone": "Atlantic/Azores",
+    "windowsTimezone": "Azores Standard Time",
+    "utcOffset": "UTC+00:00",
+    "searchKeywords": "Portugal, PT, Azores"
+  },
+  {
+    "country": "Portugal",
+    "iso2": "PT",
+    "cityRegion": "Lisbon",
+    "usStates": "",
+    "ianaTimezone": "Europe/Lisbon",
+    "windowsTimezone": "GMT Standard Time",
+    "utcOffset": "UTC+01:00",
+    "searchKeywords": "Portugal, PT, Lisbon"
+  },
+  {
+    "country": "Portugal",
+    "iso2": "PT",
+    "cityRegion": "Madeira",
+    "usStates": "",
+    "ianaTimezone": "Atlantic/Madeira",
+    "windowsTimezone": "GMT Standard Time",
+    "utcOffset": "UTC+01:00",
+    "searchKeywords": "Portugal, PT, Madeira"
+  },
+  {
+    "country": "Puerto Rico",
+    "iso2": "PR",
+    "cityRegion": "Puerto Rico",
+    "usStates": "",
+    "ianaTimezone": "America/Puerto_Rico",
+    "windowsTimezone": "SA Western Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "Puerto Rico, PR, Puerto Rico"
+  },
+  {
+    "country": "Qatar",
+    "iso2": "QA",
+    "cityRegion": "Qatar",
+    "usStates": "",
+    "ianaTimezone": "Asia/Qatar",
+    "windowsTimezone": "Arab Standard Time",
+    "utcOffset": "UTC+03:00",
+    "searchKeywords": "Qatar, QA, Qatar"
+  },
+  {
+    "country": "Réunion",
+    "iso2": "RE",
+    "cityRegion": "Reunion",
+    "usStates": "",
+    "ianaTimezone": "Indian/Reunion",
+    "windowsTimezone": "Mauritius Standard Time",
+    "utcOffset": "UTC+04:00",
+    "searchKeywords": "Réunion, RE, Reunion"
+  },
+  {
+    "country": "Romania",
+    "iso2": "RO",
+    "cityRegion": "Bucharest",
+    "usStates": "",
+    "ianaTimezone": "Europe/Bucharest",
+    "windowsTimezone": "GTB Standard Time",
+    "utcOffset": "UTC+03:00",
+    "searchKeywords": "Romania, RO, Bucharest"
+  },
+  {
+    "country": "Russian Federation",
+    "iso2": "RU",
+    "cityRegion": "Anadyr",
+    "usStates": "",
+    "ianaTimezone": "Asia/Anadyr",
+    "windowsTimezone": "Russia Time Zone 11",
+    "utcOffset": "UTC+12:00",
+    "searchKeywords": "Russian Federation, RU, Anadyr"
+  },
+  {
+    "country": "Russian Federation",
+    "iso2": "RU",
+    "cityRegion": "Astrakhan",
+    "usStates": "",
+    "ianaTimezone": "Europe/Astrakhan",
+    "windowsTimezone": "Astrakhan Standard Time",
+    "utcOffset": "UTC+04:00",
+    "searchKeywords": "Russian Federation, RU, Astrakhan"
+  },
+  {
+    "country": "Russian Federation",
+    "iso2": "RU",
+    "cityRegion": "Barnaul",
+    "usStates": "",
+    "ianaTimezone": "Asia/Barnaul",
+    "windowsTimezone": "Altai Standard Time",
+    "utcOffset": "UTC+07:00",
+    "searchKeywords": "Russian Federation, RU, Barnaul"
+  },
+  {
+    "country": "Russian Federation",
+    "iso2": "RU",
+    "cityRegion": "Chita",
+    "usStates": "",
+    "ianaTimezone": "Asia/Chita",
+    "windowsTimezone": "Transbaikal Standard Time",
+    "utcOffset": "UTC+09:00",
+    "searchKeywords": "Russian Federation, RU, Chita"
+  },
+  {
+    "country": "Russian Federation",
+    "iso2": "RU",
+    "cityRegion": "Irkutsk",
+    "usStates": "",
+    "ianaTimezone": "Asia/Irkutsk",
+    "windowsTimezone": "North Asia East Standard Time",
+    "utcOffset": "UTC+08:00",
+    "searchKeywords": "Russian Federation, RU, Irkutsk"
+  },
+  {
+    "country": "Russian Federation",
+    "iso2": "RU",
+    "cityRegion": "Kaliningrad",
+    "usStates": "",
+    "ianaTimezone": "Europe/Kaliningrad",
+    "windowsTimezone": "Kaliningrad Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Russian Federation, RU, Kaliningrad"
+  },
+  {
+    "country": "Russian Federation",
+    "iso2": "RU",
+    "cityRegion": "Kamchatka",
+    "usStates": "",
+    "ianaTimezone": "Asia/Kamchatka",
+    "windowsTimezone": "Russia Time Zone 11",
+    "utcOffset": "UTC+12:00",
+    "searchKeywords": "Russian Federation, RU, Kamchatka"
+  },
+  {
+    "country": "Russian Federation",
+    "iso2": "RU",
+    "cityRegion": "Khandyga",
+    "usStates": "",
+    "ianaTimezone": "Asia/Khandyga",
+    "windowsTimezone": "Yakutsk Standard Time",
+    "utcOffset": "UTC+09:00",
+    "searchKeywords": "Russian Federation, RU, Khandyga"
+  },
+  {
+    "country": "Russian Federation",
+    "iso2": "RU",
+    "cityRegion": "Kirov",
+    "usStates": "",
+    "ianaTimezone": "Europe/Kirov",
+    "windowsTimezone": "Russian Standard Time",
+    "utcOffset": "UTC+03:00",
+    "searchKeywords": "Russian Federation, RU, Kirov"
+  },
+  {
+    "country": "Russian Federation",
+    "iso2": "RU",
+    "cityRegion": "Krasnoyarsk",
+    "usStates": "",
+    "ianaTimezone": "Asia/Krasnoyarsk",
+    "windowsTimezone": "North Asia Standard Time",
+    "utcOffset": "UTC+07:00",
+    "searchKeywords": "Russian Federation, RU, Krasnoyarsk"
+  },
+  {
+    "country": "Russian Federation",
+    "iso2": "RU",
+    "cityRegion": "Magadan",
+    "usStates": "",
+    "ianaTimezone": "Asia/Magadan",
+    "windowsTimezone": "Magadan Standard Time",
+    "utcOffset": "UTC+11:00",
+    "searchKeywords": "Russian Federation, RU, Magadan"
+  },
+  {
+    "country": "Russian Federation",
+    "iso2": "RU",
+    "cityRegion": "Moscow",
+    "usStates": "",
+    "ianaTimezone": "Europe/Moscow",
+    "windowsTimezone": "Russian Standard Time",
+    "utcOffset": "UTC+03:00",
+    "searchKeywords": "Russian Federation, RU, Moscow"
+  },
+  {
+    "country": "Russian Federation",
+    "iso2": "RU",
+    "cityRegion": "Novokuznetsk",
+    "usStates": "",
+    "ianaTimezone": "Asia/Novokuznetsk",
+    "windowsTimezone": "North Asia Standard Time",
+    "utcOffset": "UTC+07:00",
+    "searchKeywords": "Russian Federation, RU, Novokuznetsk"
+  },
+  {
+    "country": "Russian Federation",
+    "iso2": "RU",
+    "cityRegion": "Novosibirsk",
+    "usStates": "",
+    "ianaTimezone": "Asia/Novosibirsk",
+    "windowsTimezone": "N. Central Asia Standard Time",
+    "utcOffset": "UTC+07:00",
+    "searchKeywords": "Russian Federation, RU, Novosibirsk"
+  },
+  {
+    "country": "Russian Federation",
+    "iso2": "RU",
+    "cityRegion": "Omsk",
+    "usStates": "",
+    "ianaTimezone": "Asia/Omsk",
+    "windowsTimezone": "Omsk Standard Time",
+    "utcOffset": "UTC+06:00",
+    "searchKeywords": "Russian Federation, RU, Omsk"
+  },
+  {
+    "country": "Russian Federation",
+    "iso2": "RU",
+    "cityRegion": "Sakhalin",
+    "usStates": "",
+    "ianaTimezone": "Asia/Sakhalin",
+    "windowsTimezone": "Sakhalin Standard Time",
+    "utcOffset": "UTC+11:00",
+    "searchKeywords": "Russian Federation, RU, Sakhalin"
+  },
+  {
+    "country": "Russian Federation",
+    "iso2": "RU",
+    "cityRegion": "Samara",
+    "usStates": "",
+    "ianaTimezone": "Europe/Samara",
+    "windowsTimezone": "Russia Time Zone 3",
+    "utcOffset": "UTC+04:00",
+    "searchKeywords": "Russian Federation, RU, Samara"
+  },
+  {
+    "country": "Russian Federation",
+    "iso2": "RU",
+    "cityRegion": "Saratov",
+    "usStates": "",
+    "ianaTimezone": "Europe/Saratov",
+    "windowsTimezone": "Saratov Standard Time",
+    "utcOffset": "UTC+04:00",
+    "searchKeywords": "Russian Federation, RU, Saratov"
+  },
+  {
+    "country": "Russian Federation",
+    "iso2": "RU",
+    "cityRegion": "Srednekolymsk",
+    "usStates": "",
+    "ianaTimezone": "Asia/Srednekolymsk",
+    "windowsTimezone": "Russia Time Zone 10",
+    "utcOffset": "UTC+11:00",
+    "searchKeywords": "Russian Federation, RU, Srednekolymsk"
+  },
+  {
+    "country": "Russian Federation",
+    "iso2": "RU",
+    "cityRegion": "Tomsk",
+    "usStates": "",
+    "ianaTimezone": "Asia/Tomsk",
+    "windowsTimezone": "Tomsk Standard Time",
+    "utcOffset": "UTC+07:00",
+    "searchKeywords": "Russian Federation, RU, Tomsk"
+  },
+  {
+    "country": "Russian Federation",
+    "iso2": "RU",
+    "cityRegion": "Ulyanovsk",
+    "usStates": "",
+    "ianaTimezone": "Europe/Ulyanovsk",
+    "windowsTimezone": "Astrakhan Standard Time",
+    "utcOffset": "UTC+04:00",
+    "searchKeywords": "Russian Federation, RU, Ulyanovsk"
+  },
+  {
+    "country": "Russian Federation",
+    "iso2": "RU",
+    "cityRegion": "Ust-Nera",
+    "usStates": "",
+    "ianaTimezone": "Asia/Ust-Nera",
+    "windowsTimezone": "Vladivostok Standard Time",
+    "utcOffset": "UTC+10:00",
+    "searchKeywords": "Russian Federation, RU, Ust-Nera"
+  },
+  {
+    "country": "Russian Federation",
+    "iso2": "RU",
+    "cityRegion": "Vladivostok",
+    "usStates": "",
+    "ianaTimezone": "Asia/Vladivostok",
+    "windowsTimezone": "Vladivostok Standard Time",
+    "utcOffset": "UTC+10:00",
+    "searchKeywords": "Russian Federation, RU, Vladivostok"
+  },
+  {
+    "country": "Russian Federation",
+    "iso2": "RU",
+    "cityRegion": "Volgograd",
+    "usStates": "",
+    "ianaTimezone": "Europe/Volgograd",
+    "windowsTimezone": "Volgograd Standard Time",
+    "utcOffset": "UTC+03:00",
+    "searchKeywords": "Russian Federation, RU, Volgograd"
+  },
+  {
+    "country": "Russian Federation",
+    "iso2": "RU",
+    "cityRegion": "Yakutsk",
+    "usStates": "",
+    "ianaTimezone": "Asia/Yakutsk",
+    "windowsTimezone": "Yakutsk Standard Time",
+    "utcOffset": "UTC+09:00",
+    "searchKeywords": "Russian Federation, RU, Yakutsk"
+  },
+  {
+    "country": "Russian Federation",
+    "iso2": "RU",
+    "cityRegion": "Yekaterinburg",
+    "usStates": "",
+    "ianaTimezone": "Asia/Yekaterinburg",
+    "windowsTimezone": "Ekaterinburg Standard Time",
+    "utcOffset": "UTC+05:00",
+    "searchKeywords": "Russian Federation, RU, Yekaterinburg"
+  },
+  {
+    "country": "Rwanda",
+    "iso2": "RW",
+    "cityRegion": "Kigali",
+    "usStates": "",
+    "ianaTimezone": "Africa/Kigali",
+    "windowsTimezone": "South Africa Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Rwanda, RW, Kigali"
+  },
+  {
+    "country": "Saint Barthélemy",
+    "iso2": "BL",
+    "cityRegion": "St Barthelemy",
+    "usStates": "",
+    "ianaTimezone": "America/St_Barthelemy",
+    "windowsTimezone": "SA Western Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "Saint Barthélemy, BL, St Barthelemy"
+  },
+  {
+    "country": "Saint Helena, Ascension and Tristan da Cunha",
+    "iso2": "SH",
+    "cityRegion": "St Helena",
+    "usStates": "",
+    "ianaTimezone": "Atlantic/St_Helena",
+    "windowsTimezone": "Greenwich Standard Time",
+    "utcOffset": "UTC+00:00",
+    "searchKeywords": "Saint Helena, Ascension and Tristan da Cunha, SH, St Helena"
+  },
+  {
+    "country": "Saint Kitts and Nevis",
+    "iso2": "KN",
+    "cityRegion": "St Kitts",
+    "usStates": "",
+    "ianaTimezone": "America/St_Kitts",
+    "windowsTimezone": "SA Western Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "Saint Kitts and Nevis, KN, St Kitts"
+  },
+  {
+    "country": "Saint Lucia",
+    "iso2": "LC",
+    "cityRegion": "St Lucia",
+    "usStates": "",
+    "ianaTimezone": "America/St_Lucia",
+    "windowsTimezone": "SA Western Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "Saint Lucia, LC, St Lucia"
+  },
+  {
+    "country": "Saint Martin (French part)",
+    "iso2": "MF",
+    "cityRegion": "Marigot",
+    "usStates": "",
+    "ianaTimezone": "America/Marigot",
+    "windowsTimezone": "SA Western Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "Saint Martin (French part), MF, Marigot"
+  },
+  {
+    "country": "Saint Pierre and Miquelon",
+    "iso2": "PM",
+    "cityRegion": "Miquelon",
+    "usStates": "",
+    "ianaTimezone": "America/Miquelon",
+    "windowsTimezone": "Saint Pierre Standard Time",
+    "utcOffset": "UTC-02:00",
+    "searchKeywords": "Saint Pierre and Miquelon, PM, Miquelon"
+  },
+  {
+    "country": "Saint Vincent and the Grenadines",
+    "iso2": "VC",
+    "cityRegion": "St Vincent",
+    "usStates": "",
+    "ianaTimezone": "America/St_Vincent",
+    "windowsTimezone": "SA Western Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "Saint Vincent and the Grenadines, VC, St Vincent"
+  },
+  {
+    "country": "Samoa",
+    "iso2": "WS",
+    "cityRegion": "Apia",
+    "usStates": "",
+    "ianaTimezone": "Pacific/Apia",
+    "windowsTimezone": "Samoa Standard Time",
+    "utcOffset": "UTC+13:00",
+    "searchKeywords": "Samoa, WS, Apia"
+  },
+  {
+    "country": "San Marino",
+    "iso2": "SM",
+    "cityRegion": "San Marino",
+    "usStates": "",
+    "ianaTimezone": "Europe/San_Marino",
+    "windowsTimezone": "W. Europe Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "San Marino, SM, San Marino"
+  },
+  {
+    "country": "Sao Tome and Principe",
+    "iso2": "ST",
+    "cityRegion": "Sao Tome",
+    "usStates": "",
+    "ianaTimezone": "Africa/Sao_Tome",
+    "windowsTimezone": "Sao Tome Standard Time",
+    "utcOffset": "UTC+00:00",
+    "searchKeywords": "Sao Tome and Principe, ST, Sao Tome"
+  },
+  {
+    "country": "Saudi Arabia",
+    "iso2": "SA",
+    "cityRegion": "Riyadh",
+    "usStates": "",
+    "ianaTimezone": "Asia/Riyadh",
+    "windowsTimezone": "Arab Standard Time",
+    "utcOffset": "UTC+03:00",
+    "searchKeywords": "Saudi Arabia, SA, Riyadh"
+  },
+  {
+    "country": "Senegal",
+    "iso2": "SN",
+    "cityRegion": "Dakar",
+    "usStates": "",
+    "ianaTimezone": "Africa/Dakar",
+    "windowsTimezone": "Greenwich Standard Time",
+    "utcOffset": "UTC+00:00",
+    "searchKeywords": "Senegal, SN, Dakar"
+  },
+  {
+    "country": "Serbia",
+    "iso2": "RS",
+    "cityRegion": "Belgrade",
+    "usStates": "",
+    "ianaTimezone": "Europe/Belgrade",
+    "windowsTimezone": "Central Europe Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Serbia, RS, Belgrade"
+  },
+  {
+    "country": "Seychelles",
+    "iso2": "SC",
+    "cityRegion": "Mahe",
+    "usStates": "",
+    "ianaTimezone": "Indian/Mahe",
+    "windowsTimezone": "Mauritius Standard Time",
+    "utcOffset": "UTC+04:00",
+    "searchKeywords": "Seychelles, SC, Mahe"
+  },
+  {
+    "country": "Sierra Leone",
+    "iso2": "SL",
+    "cityRegion": "Freetown",
+    "usStates": "",
+    "ianaTimezone": "Africa/Freetown",
+    "windowsTimezone": "Greenwich Standard Time",
+    "utcOffset": "UTC+00:00",
+    "searchKeywords": "Sierra Leone, SL, Freetown"
+  },
+  {
+    "country": "Singapore",
+    "iso2": "SG",
+    "cityRegion": "Singapore",
+    "usStates": "",
+    "ianaTimezone": "Asia/Singapore",
+    "windowsTimezone": "Singapore Standard Time",
+    "utcOffset": "UTC+08:00",
+    "searchKeywords": "Singapore, SG, Singapore"
+  },
+  {
+    "country": "Sint Maarten (Dutch part)",
+    "iso2": "SX",
+    "cityRegion": "Lower Princes",
+    "usStates": "",
+    "ianaTimezone": "America/Lower_Princes",
+    "windowsTimezone": "SA Western Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "Sint Maarten (Dutch part), SX, Lower Princes"
+  },
+  {
+    "country": "Slovakia",
+    "iso2": "SK",
+    "cityRegion": "Bratislava",
+    "usStates": "",
+    "ianaTimezone": "Europe/Bratislava",
+    "windowsTimezone": "Central Europe Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Slovakia, SK, Bratislava"
+  },
+  {
+    "country": "Slovenia",
+    "iso2": "SI",
+    "cityRegion": "Ljubljana",
+    "usStates": "",
+    "ianaTimezone": "Europe/Ljubljana",
+    "windowsTimezone": "Central Europe Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Slovenia, SI, Ljubljana"
+  },
+  {
+    "country": "Solomon Islands",
+    "iso2": "SB",
+    "cityRegion": "Guadalcanal",
+    "usStates": "",
+    "ianaTimezone": "Pacific/Guadalcanal",
+    "windowsTimezone": "Central Pacific Standard Time",
+    "utcOffset": "UTC+11:00",
+    "searchKeywords": "Solomon Islands, SB, Guadalcanal"
+  },
+  {
+    "country": "Somalia",
+    "iso2": "SO",
+    "cityRegion": "Mogadishu",
+    "usStates": "",
+    "ianaTimezone": "Africa/Mogadishu",
+    "windowsTimezone": "E. Africa Standard Time",
+    "utcOffset": "UTC+03:00",
+    "searchKeywords": "Somalia, SO, Mogadishu"
+  },
+  {
+    "country": "South Africa",
+    "iso2": "ZA",
+    "cityRegion": "Johannesburg",
+    "usStates": "",
+    "ianaTimezone": "Africa/Johannesburg",
+    "windowsTimezone": "South Africa Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "South Africa, ZA, Johannesburg"
+  },
+  {
+    "country": "South Georgia and the South Sandwich Islands",
+    "iso2": "GS",
+    "cityRegion": "South Georgia",
+    "usStates": "",
+    "ianaTimezone": "Atlantic/South_Georgia",
+    "windowsTimezone": "UTC-02",
+    "utcOffset": "UTC-02:00",
+    "searchKeywords": "South Georgia and the South Sandwich Islands, GS, South Georgia"
+  },
+  {
+    "country": "South Sudan",
+    "iso2": "SS",
+    "cityRegion": "Juba",
+    "usStates": "",
+    "ianaTimezone": "Africa/Juba",
+    "windowsTimezone": "South Sudan Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "South Sudan, SS, Juba"
+  },
+  {
+    "country": "Spain",
+    "iso2": "ES",
+    "cityRegion": "Canary",
+    "usStates": "",
+    "ianaTimezone": "Atlantic/Canary",
+    "windowsTimezone": "GMT Standard Time",
+    "utcOffset": "UTC+01:00",
+    "searchKeywords": "Spain, ES, Canary"
+  },
+  {
+    "country": "Spain",
+    "iso2": "ES",
+    "cityRegion": "Ceuta",
+    "usStates": "",
+    "ianaTimezone": "Africa/Ceuta",
+    "windowsTimezone": "Romance Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Spain, ES, Ceuta"
+  },
+  {
+    "country": "Spain",
+    "iso2": "ES",
+    "cityRegion": "Madrid",
+    "usStates": "",
+    "ianaTimezone": "Europe/Madrid",
+    "windowsTimezone": "Romance Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Spain, ES, Madrid"
+  },
+  {
+    "country": "Sri Lanka",
+    "iso2": "LK",
+    "cityRegion": "Colombo",
+    "usStates": "",
+    "ianaTimezone": "Asia/Colombo",
+    "windowsTimezone": "Sri Lanka Standard Time",
+    "utcOffset": "UTC+05:30",
+    "searchKeywords": "Sri Lanka, LK, Colombo"
+  },
+  {
+    "country": "Sudan",
+    "iso2": "SD",
+    "cityRegion": "Khartoum",
+    "usStates": "",
+    "ianaTimezone": "Africa/Khartoum",
+    "windowsTimezone": "Sudan Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Sudan, SD, Khartoum"
+  },
+  {
+    "country": "Suriname",
+    "iso2": "SR",
+    "cityRegion": "Paramaribo",
+    "usStates": "",
+    "ianaTimezone": "America/Paramaribo",
+    "windowsTimezone": "SA Eastern Standard Time",
+    "utcOffset": "UTC-03:00",
+    "searchKeywords": "Suriname, SR, Paramaribo"
+  },
+  {
+    "country": "Svalbard and Jan Mayen",
+    "iso2": "SJ",
+    "cityRegion": "Longyearbyen",
+    "usStates": "",
+    "ianaTimezone": "Arctic/Longyearbyen",
+    "windowsTimezone": "W. Europe Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Svalbard and Jan Mayen, SJ, Longyearbyen"
+  },
+  {
+    "country": "Sweden",
+    "iso2": "SE",
+    "cityRegion": "Stockholm",
+    "usStates": "",
+    "ianaTimezone": "Europe/Stockholm",
+    "windowsTimezone": "W. Europe Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Sweden, SE, Stockholm"
+  },
+  {
+    "country": "Switzerland",
+    "iso2": "CH",
+    "cityRegion": "Zurich",
+    "usStates": "",
+    "ianaTimezone": "Europe/Zurich",
+    "windowsTimezone": "W. Europe Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Switzerland, CH, Zurich"
+  },
+  {
+    "country": "Syrian Arab Republic",
+    "iso2": "SY",
+    "cityRegion": "Damascus",
+    "usStates": "",
+    "ianaTimezone": "Asia/Damascus",
+    "windowsTimezone": "Syria Standard Time",
+    "utcOffset": "UTC+03:00",
+    "searchKeywords": "Syrian Arab Republic, SY, Damascus"
+  },
+  {
+    "country": "Taiwan, Province of China",
+    "iso2": "TW",
+    "cityRegion": "Taipei",
+    "usStates": "",
+    "ianaTimezone": "Asia/Taipei",
+    "windowsTimezone": "Taipei Standard Time",
+    "utcOffset": "UTC+08:00",
+    "searchKeywords": "Taiwan, Province of China, TW, Taipei"
+  },
+  {
+    "country": "Tajikistan",
+    "iso2": "TJ",
+    "cityRegion": "Dushanbe",
+    "usStates": "",
+    "ianaTimezone": "Asia/Dushanbe",
+    "windowsTimezone": "West Asia Standard Time",
+    "utcOffset": "UTC+05:00",
+    "searchKeywords": "Tajikistan, TJ, Dushanbe"
+  },
+  {
+    "country": "Tanzania, United Republic of",
+    "iso2": "TZ",
+    "cityRegion": "Dar es Salaam",
+    "usStates": "",
+    "ianaTimezone": "Africa/Dar_es_Salaam",
+    "windowsTimezone": "E. Africa Standard Time",
+    "utcOffset": "UTC+03:00",
+    "searchKeywords": "Tanzania, United Republic of, TZ, Dar es Salaam"
+  },
+  {
+    "country": "Thailand",
+    "iso2": "TH",
+    "cityRegion": "Bangkok",
+    "usStates": "",
+    "ianaTimezone": "Asia/Bangkok",
+    "windowsTimezone": "SE Asia Standard Time",
+    "utcOffset": "UTC+07:00",
+    "searchKeywords": "Thailand, TH, Bangkok"
+  },
+  {
+    "country": "Timor-Leste",
+    "iso2": "TL",
+    "cityRegion": "Dili",
+    "usStates": "",
+    "ianaTimezone": "Asia/Dili",
+    "windowsTimezone": "Tokyo Standard Time",
+    "utcOffset": "UTC+09:00",
+    "searchKeywords": "Timor-Leste, TL, Dili"
+  },
+  {
+    "country": "Togo",
+    "iso2": "TG",
+    "cityRegion": "Lome",
+    "usStates": "",
+    "ianaTimezone": "Africa/Lome",
+    "windowsTimezone": "Greenwich Standard Time",
+    "utcOffset": "UTC+00:00",
+    "searchKeywords": "Togo, TG, Lome"
+  },
+  {
+    "country": "Tokelau",
+    "iso2": "TK",
+    "cityRegion": "Fakaofo",
+    "usStates": "",
+    "ianaTimezone": "Pacific/Fakaofo",
+    "windowsTimezone": "UTC+13",
+    "utcOffset": "UTC+13:00",
+    "searchKeywords": "Tokelau, TK, Fakaofo"
+  },
+  {
+    "country": "Tonga",
+    "iso2": "TO",
+    "cityRegion": "Tongatapu",
+    "usStates": "",
+    "ianaTimezone": "Pacific/Tongatapu",
+    "windowsTimezone": "Tonga Standard Time",
+    "utcOffset": "UTC+13:00",
+    "searchKeywords": "Tonga, TO, Tongatapu"
+  },
+  {
+    "country": "Trinidad and Tobago",
+    "iso2": "TT",
+    "cityRegion": "Port of Spain",
+    "usStates": "",
+    "ianaTimezone": "America/Port_of_Spain",
+    "windowsTimezone": "SA Western Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "Trinidad and Tobago, TT, Port of Spain"
+  },
+  {
+    "country": "Tunisia",
+    "iso2": "TN",
+    "cityRegion": "Tunis",
+    "usStates": "",
+    "ianaTimezone": "Africa/Tunis",
+    "windowsTimezone": "W. Central Africa Standard Time",
+    "utcOffset": "UTC+01:00",
+    "searchKeywords": "Tunisia, TN, Tunis"
+  },
+  {
+    "country": "Türkiye",
+    "iso2": "TR",
+    "cityRegion": "Istanbul",
+    "usStates": "",
+    "ianaTimezone": "Europe/Istanbul",
+    "windowsTimezone": "Turkey Standard Time",
+    "utcOffset": "UTC+03:00",
+    "searchKeywords": "Türkiye, TR, Istanbul"
+  },
+  {
+    "country": "Turkmenistan",
+    "iso2": "TM",
+    "cityRegion": "Ashgabat",
+    "usStates": "",
+    "ianaTimezone": "Asia/Ashgabat",
+    "windowsTimezone": "West Asia Standard Time",
+    "utcOffset": "UTC+05:00",
+    "searchKeywords": "Turkmenistan, TM, Ashgabat"
+  },
+  {
+    "country": "Turks and Caicos Islands",
+    "iso2": "TC",
+    "cityRegion": "Grand Turk",
+    "usStates": "",
+    "ianaTimezone": "America/Grand_Turk",
+    "windowsTimezone": "Turks And Caicos Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "Turks and Caicos Islands, TC, Grand Turk"
+  },
+  {
+    "country": "Tuvalu",
+    "iso2": "TV",
+    "cityRegion": "Funafuti",
+    "usStates": "",
+    "ianaTimezone": "Pacific/Funafuti",
+    "windowsTimezone": "UTC+12",
+    "utcOffset": "UTC+12:00",
+    "searchKeywords": "Tuvalu, TV, Funafuti"
+  },
+  {
+    "country": "Uganda",
+    "iso2": "UG",
+    "cityRegion": "Kampala",
+    "usStates": "",
+    "ianaTimezone": "Africa/Kampala",
+    "windowsTimezone": "E. Africa Standard Time",
+    "utcOffset": "UTC+03:00",
+    "searchKeywords": "Uganda, UG, Kampala"
+  },
+  {
+    "country": "Ukraine",
+    "iso2": "UA",
+    "cityRegion": "Kyiv",
+    "usStates": "",
+    "ianaTimezone": "Europe/Kyiv",
+    "windowsTimezone": "FLE Standard Time",
+    "utcOffset": "UTC+03:00",
+    "searchKeywords": "Ukraine, UA, Kyiv"
+  },
+  {
+    "country": "Ukraine",
+    "iso2": "UA",
+    "cityRegion": "Simferopol",
+    "usStates": "",
+    "ianaTimezone": "Europe/Simferopol",
+    "windowsTimezone": "Russian Standard Time",
+    "utcOffset": "UTC+03:00",
+    "searchKeywords": "Ukraine, UA, Simferopol"
+  },
+  {
+    "country": "United Arab Emirates",
+    "iso2": "AE",
+    "cityRegion": "Dubai",
+    "usStates": "",
+    "ianaTimezone": "Asia/Dubai",
+    "windowsTimezone": "Arabian Standard Time",
+    "utcOffset": "UTC+04:00",
+    "searchKeywords": "United Arab Emirates, AE, Dubai"
+  },
+  {
+    "country": "United Kingdom",
+    "iso2": "GB",
+    "cityRegion": "London",
+    "usStates": "",
+    "ianaTimezone": "Europe/London",
+    "windowsTimezone": "GMT Standard Time",
+    "utcOffset": "UTC+01:00",
+    "searchKeywords": "United Kingdom, GB, London"
+  },
+  {
+    "country": "United States",
+    "iso2": "US",
+    "cityRegion": "Adak",
+    "usStates": "",
+    "ianaTimezone": "America/Adak",
+    "windowsTimezone": "Aleutian Standard Time",
+    "utcOffset": "UTC-09:00",
+    "searchKeywords": "United States, US, Adak"
+  },
+  {
+    "country": "United States",
+    "iso2": "US",
+    "cityRegion": "Anchorage",
+    "usStates": "Alaska",
+    "ianaTimezone": "America/Anchorage",
+    "windowsTimezone": "Alaskan Standard Time",
+    "utcOffset": "UTC-08:00",
+    "searchKeywords": "United States, US, Anchorage, Alaska"
+  },
+  {
+    "country": "United States",
+    "iso2": "US",
+    "cityRegion": "Beulah",
+    "usStates": "",
+    "ianaTimezone": "America/North_Dakota/Beulah",
+    "windowsTimezone": "Central Standard Time",
+    "utcOffset": "UTC-05:00",
+    "searchKeywords": "United States, US, Beulah"
+  },
+  {
+    "country": "United States",
+    "iso2": "US",
+    "cityRegion": "Boise",
+    "usStates": "Idaho",
+    "ianaTimezone": "America/Boise",
+    "windowsTimezone": "Mountain Standard Time",
+    "utcOffset": "UTC-06:00",
+    "searchKeywords": "United States, US, Boise, Idaho"
+  },
+  {
+    "country": "United States",
+    "iso2": "US",
+    "cityRegion": "Center",
+    "usStates": "",
+    "ianaTimezone": "America/North_Dakota/Center",
+    "windowsTimezone": "Central Standard Time",
+    "utcOffset": "UTC-05:00",
+    "searchKeywords": "United States, US, Center"
+  },
+  {
+    "country": "United States",
+    "iso2": "US",
+    "cityRegion": "Chicago",
+    "usStates": "Illinois, Central Time states (IL, TX, IN, WI, MO, MN, LA, etc.)",
+    "ianaTimezone": "America/Chicago",
+    "windowsTimezone": "Central Standard Time",
+    "utcOffset": "UTC-05:00",
+    "searchKeywords": "United States, US, Chicago, Illinois, Central Time states (IL, TX, IN, WI, MO, MN, LA, etc.)"
+  },
+  {
+    "country": "United States",
+    "iso2": "US",
+    "cityRegion": "Denver",
+    "usStates": "Colorado, Mountain Time states (CO, AZ-some, UT, NM, MT, WY, ID)",
+    "ianaTimezone": "America/Denver",
+    "windowsTimezone": "Mountain Standard Time",
+    "utcOffset": "UTC-06:00",
+    "searchKeywords": "United States, US, Denver, Colorado, Mountain Time states (CO, AZ-some, UT, NM, MT, WY, ID)"
+  },
+  {
+    "country": "United States",
+    "iso2": "US",
+    "cityRegion": "Detroit",
+    "usStates": "Michigan",
+    "ianaTimezone": "America/Detroit",
+    "windowsTimezone": "Eastern Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "United States, US, Detroit, Michigan"
+  },
+  {
+    "country": "United States",
+    "iso2": "US",
+    "cityRegion": "Honolulu",
+    "usStates": "Hawaii",
+    "ianaTimezone": "Pacific/Honolulu",
+    "windowsTimezone": "Hawaiian Standard Time",
+    "utcOffset": "UTC-10:00",
+    "searchKeywords": "United States, US, Honolulu, Hawaii"
+  },
+  {
+    "country": "United States",
+    "iso2": "US",
+    "cityRegion": "Indianapolis",
+    "usStates": "Indiana",
+    "ianaTimezone": "America/Indiana/Indianapolis",
+    "windowsTimezone": "US Eastern Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "United States, US, Indianapolis, Indiana"
+  },
+  {
+    "country": "United States",
+    "iso2": "US",
+    "cityRegion": "Juneau",
+    "usStates": "",
+    "ianaTimezone": "America/Juneau",
+    "windowsTimezone": "Alaskan Standard Time",
+    "utcOffset": "UTC-08:00",
+    "searchKeywords": "United States, US, Juneau"
+  },
+  {
+    "country": "United States",
+    "iso2": "US",
+    "cityRegion": "Knox",
+    "usStates": "",
+    "ianaTimezone": "America/Indiana/Knox",
+    "windowsTimezone": "Central Standard Time",
+    "utcOffset": "UTC-05:00",
+    "searchKeywords": "United States, US, Knox"
+  },
+  {
+    "country": "United States",
+    "iso2": "US",
+    "cityRegion": "Los Angeles",
+    "usStates": "California, Pacific Time states (CA, WA, OR, NV)",
+    "ianaTimezone": "America/Los_Angeles",
+    "windowsTimezone": "Pacific Standard Time",
+    "utcOffset": "UTC-07:00",
+    "searchKeywords": "United States, US, Los Angeles, California, Pacific Time states (CA, WA, OR, NV)"
+  },
+  {
+    "country": "United States",
+    "iso2": "US",
+    "cityRegion": "Louisville",
+    "usStates": "",
+    "ianaTimezone": "America/Kentucky/Louisville",
+    "windowsTimezone": "Eastern Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "United States, US, Louisville"
+  },
+  {
+    "country": "United States",
+    "iso2": "US",
+    "cityRegion": "Marengo",
+    "usStates": "",
+    "ianaTimezone": "America/Indiana/Marengo",
+    "windowsTimezone": "US Eastern Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "United States, US, Marengo"
+  },
+  {
+    "country": "United States",
+    "iso2": "US",
+    "cityRegion": "Menominee",
+    "usStates": "",
+    "ianaTimezone": "America/Menominee",
+    "windowsTimezone": "Central Standard Time",
+    "utcOffset": "UTC-05:00",
+    "searchKeywords": "United States, US, Menominee"
+  },
+  {
+    "country": "United States",
+    "iso2": "US",
+    "cityRegion": "Metlakatla",
+    "usStates": "",
+    "ianaTimezone": "America/Metlakatla",
+    "windowsTimezone": "Alaskan Standard Time",
+    "utcOffset": "UTC-08:00",
+    "searchKeywords": "United States, US, Metlakatla"
+  },
+  {
+    "country": "United States",
+    "iso2": "US",
+    "cityRegion": "Monticello",
+    "usStates": "",
+    "ianaTimezone": "America/Kentucky/Monticello",
+    "windowsTimezone": "Eastern Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "United States, US, Monticello"
+  },
+  {
+    "country": "United States",
+    "iso2": "US",
+    "cityRegion": "New Salem",
+    "usStates": "",
+    "ianaTimezone": "America/North_Dakota/New_Salem",
+    "windowsTimezone": "Central Standard Time",
+    "utcOffset": "UTC-05:00",
+    "searchKeywords": "United States, US, New Salem"
+  },
+  {
+    "country": "United States",
+    "iso2": "US",
+    "cityRegion": "New York",
+    "usStates": "New York, Eastern Time states (NY, NJ, FL, GA, OH, PA, VA, NC, MI, etc.)",
+    "ianaTimezone": "America/New_York",
+    "windowsTimezone": "Eastern Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "United States, US, New York, New York, Eastern Time states (NY, NJ, FL, GA, OH, PA, VA, NC, MI, etc.)"
+  },
+  {
+    "country": "United States",
+    "iso2": "US",
+    "cityRegion": "Nome",
+    "usStates": "",
+    "ianaTimezone": "America/Nome",
+    "windowsTimezone": "Alaskan Standard Time",
+    "utcOffset": "UTC-08:00",
+    "searchKeywords": "United States, US, Nome"
+  },
+  {
+    "country": "United States",
+    "iso2": "US",
+    "cityRegion": "Petersburg",
+    "usStates": "",
+    "ianaTimezone": "America/Indiana/Petersburg",
+    "windowsTimezone": "Eastern Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "United States, US, Petersburg"
+  },
+  {
+    "country": "United States",
+    "iso2": "US",
+    "cityRegion": "Phoenix",
+    "usStates": "Arizona (no DST)",
+    "ianaTimezone": "America/Phoenix",
+    "windowsTimezone": "US Mountain Standard Time",
+    "utcOffset": "UTC-07:00",
+    "searchKeywords": "United States, US, Phoenix, Arizona (no DST)"
+  },
+  {
+    "country": "United States",
+    "iso2": "US",
+    "cityRegion": "Sitka",
+    "usStates": "",
+    "ianaTimezone": "America/Sitka",
+    "windowsTimezone": "Alaskan Standard Time",
+    "utcOffset": "UTC-08:00",
+    "searchKeywords": "United States, US, Sitka"
+  },
+  {
+    "country": "United States",
+    "iso2": "US",
+    "cityRegion": "Tell City",
+    "usStates": "",
+    "ianaTimezone": "America/Indiana/Tell_City",
+    "windowsTimezone": "Central Standard Time",
+    "utcOffset": "UTC-05:00",
+    "searchKeywords": "United States, US, Tell City"
+  },
+  {
+    "country": "United States",
+    "iso2": "US",
+    "cityRegion": "Vevay",
+    "usStates": "",
+    "ianaTimezone": "America/Indiana/Vevay",
+    "windowsTimezone": "US Eastern Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "United States, US, Vevay"
+  },
+  {
+    "country": "United States",
+    "iso2": "US",
+    "cityRegion": "Vincennes",
+    "usStates": "",
+    "ianaTimezone": "America/Indiana/Vincennes",
+    "windowsTimezone": "Eastern Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "United States, US, Vincennes"
+  },
+  {
+    "country": "United States",
+    "iso2": "US",
+    "cityRegion": "Winamac",
+    "usStates": "",
+    "ianaTimezone": "America/Indiana/Winamac",
+    "windowsTimezone": "Eastern Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "United States, US, Winamac"
+  },
+  {
+    "country": "United States",
+    "iso2": "US",
+    "cityRegion": "Yakutat",
+    "usStates": "",
+    "ianaTimezone": "America/Yakutat",
+    "windowsTimezone": "Alaskan Standard Time",
+    "utcOffset": "UTC-08:00",
+    "searchKeywords": "United States, US, Yakutat"
+  },
+  {
+    "country": "United States Minor Outlying Islands",
+    "iso2": "UM",
+    "cityRegion": "Midway",
+    "usStates": "",
+    "ianaTimezone": "Pacific/Midway",
+    "windowsTimezone": "UTC-11",
+    "utcOffset": "UTC-11:00",
+    "searchKeywords": "United States Minor Outlying Islands, UM, Midway"
+  },
+  {
+    "country": "United States Minor Outlying Islands",
+    "iso2": "UM",
+    "cityRegion": "Wake",
+    "usStates": "",
+    "ianaTimezone": "Pacific/Wake",
+    "windowsTimezone": "UTC+12",
+    "utcOffset": "UTC+12:00",
+    "searchKeywords": "United States Minor Outlying Islands, UM, Wake"
+  },
+  {
+    "country": "Uruguay",
+    "iso2": "UY",
+    "cityRegion": "Montevideo",
+    "usStates": "",
+    "ianaTimezone": "America/Montevideo",
+    "windowsTimezone": "Montevideo Standard Time",
+    "utcOffset": "UTC-03:00",
+    "searchKeywords": "Uruguay, UY, Montevideo"
+  },
+  {
+    "country": "Uzbekistan",
+    "iso2": "UZ",
+    "cityRegion": "Samarkand",
+    "usStates": "",
+    "ianaTimezone": "Asia/Samarkand",
+    "windowsTimezone": "West Asia Standard Time",
+    "utcOffset": "UTC+05:00",
+    "searchKeywords": "Uzbekistan, UZ, Samarkand"
+  },
+  {
+    "country": "Uzbekistan",
+    "iso2": "UZ",
+    "cityRegion": "Tashkent",
+    "usStates": "",
+    "ianaTimezone": "Asia/Tashkent",
+    "windowsTimezone": "West Asia Standard Time",
+    "utcOffset": "UTC+05:00",
+    "searchKeywords": "Uzbekistan, UZ, Tashkent"
+  },
+  {
+    "country": "Vanuatu",
+    "iso2": "VU",
+    "cityRegion": "Efate",
+    "usStates": "",
+    "ianaTimezone": "Pacific/Efate",
+    "windowsTimezone": "Central Pacific Standard Time",
+    "utcOffset": "UTC+11:00",
+    "searchKeywords": "Vanuatu, VU, Efate"
+  },
+  {
+    "country": "Venezuela, Bolivarian Republic of",
+    "iso2": "VE",
+    "cityRegion": "Caracas",
+    "usStates": "",
+    "ianaTimezone": "America/Caracas",
+    "windowsTimezone": "Venezuela Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "Venezuela, Bolivarian Republic of, VE, Caracas"
+  },
+  {
+    "country": "Viet Nam",
+    "iso2": "VN",
+    "cityRegion": "Ho Chi Minh",
+    "usStates": "",
+    "ianaTimezone": "Asia/Ho_Chi_Minh",
+    "windowsTimezone": "SE Asia Standard Time",
+    "utcOffset": "UTC+07:00",
+    "searchKeywords": "Viet Nam, VN, Ho Chi Minh"
+  },
+  {
+    "country": "Virgin Islands, British",
+    "iso2": "VG",
+    "cityRegion": "Tortola",
+    "usStates": "",
+    "ianaTimezone": "America/Tortola",
+    "windowsTimezone": "SA Western Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "Virgin Islands, British, VG, Tortola"
+  },
+  {
+    "country": "Virgin Islands, U.S.",
+    "iso2": "VI",
+    "cityRegion": "St Thomas",
+    "usStates": "",
+    "ianaTimezone": "America/St_Thomas",
+    "windowsTimezone": "SA Western Standard Time",
+    "utcOffset": "UTC-04:00",
+    "searchKeywords": "Virgin Islands, U.S., VI, St Thomas"
+  },
+  {
+    "country": "Wallis and Futuna",
+    "iso2": "WF",
+    "cityRegion": "Wallis",
+    "usStates": "",
+    "ianaTimezone": "Pacific/Wallis",
+    "windowsTimezone": "UTC+12",
+    "utcOffset": "UTC+12:00",
+    "searchKeywords": "Wallis and Futuna, WF, Wallis"
+  },
+  {
+    "country": "Western Sahara",
+    "iso2": "EH",
+    "cityRegion": "El Aaiun",
+    "usStates": "",
+    "ianaTimezone": "Africa/El_Aaiun",
+    "windowsTimezone": "Morocco Standard Time",
+    "utcOffset": "UTC+01:00",
+    "searchKeywords": "Western Sahara, EH, El Aaiun"
+  },
+  {
+    "country": "Yemen",
+    "iso2": "YE",
+    "cityRegion": "Aden",
+    "usStates": "",
+    "ianaTimezone": "Asia/Aden",
+    "windowsTimezone": "Arab Standard Time",
+    "utcOffset": "UTC+03:00",
+    "searchKeywords": "Yemen, YE, Aden"
+  },
+  {
+    "country": "Zambia",
+    "iso2": "ZM",
+    "cityRegion": "Lusaka",
+    "usStates": "",
+    "ianaTimezone": "Africa/Lusaka",
+    "windowsTimezone": "South Africa Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Zambia, ZM, Lusaka"
+  },
+  {
+    "country": "Zimbabwe",
+    "iso2": "ZW",
+    "cityRegion": "Harare",
+    "usStates": "",
+    "ianaTimezone": "Africa/Harare",
+    "windowsTimezone": "South Africa Standard Time",
+    "utcOffset": "UTC+02:00",
+    "searchKeywords": "Zimbabwe, ZW, Harare"
+  }
+]

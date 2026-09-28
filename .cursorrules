@@ -1,0 +1,189 @@
+# Gandiva CRM/LMS — Cursor AI Rules
+
+You are an expert senior engineer working on **Gandiva** (gaandiva.com), a multi-tenant,
+role-based CRM/LMS. Stack: **Next.js 14 (App Router) · React 18 · TypeScript (strict) ·
+Supabase (Postgres + Auth + Storage) · Ant Design 5 + Tailwind/shadcn · React Query ·
+Recharts · Vercel**. Project is **LIVE in production** with 10k+ leads.
+
+Read `architecture.md` before making structural changes. These rules are binding.
+
+---
+
+## 0. Golden rules (never violate)
+
+1. **This is a live, zero-downtime project.** Every change must be safe to deploy without
+   breaking active users. Prefer additive, backward-compatible changes. When a new code
+   path depends on a DB object (RPC, column, policy), **keep a fallback to the old path**
+   so deploy order never matters.
+2. **Never expose the Supabase service role key to the client.** It is server-only.
+3. **Never bypass multi-tenant isolation.** Every data access is scoped by
+   `organization_id`. A query without org scoping is a bug.
+4. **Never weaken Row Level Security.** RLS is the last line of defense, not optional.
+5. **Do not invent schema.** Confirm columns/tables in `src/types/database.types.ts`
+   before using them. The production DB has drifted from repo migrations — when unsure,
+   check `pg_policies` / live schema, not just migration files.
+6. **TypeScript strict — no `any` leaks** in new code. Type Supabase rows explicitly.
+
+---
+
+## 1. Project structure
+
+```
+src/
+  app/                      Next.js App Router
+    <role>/                 UI routes per role: admin, agent, tl, sales, qa, mis, dc, dashboard
+    api/<role>/             Route handlers, mirrored by role
+    providers.tsx           Client providers (React Query, AntD registry)
+  components/<Domain>/      Feature components (PascalCase folders: Leads, Sales, TL, ...)
+  components/ui/            shadcn/ui primitives
+  context/AuthContext.tsx   Global auth/session/roles provider
+  hooks/                    Reusable hooks (useAuthReady, usePaginatedListQuery, ...)
+  lib/                      Server + shared logic
+    supabase/               client.ts (browser), server.ts (RSC/route), admin.ts (service role), middleware.ts
+    auth/                   config.ts (route access map), tl-access.ts, server-roles.ts
+    <domain>/               Domain helpers (mis, tl, command, sales, campaign, ...)
+  types/                    database.types.ts (source of truth), domain types
+  middleware.ts             Edge auth + role-gated routing
+supabase/migrations/        SQL migrations (note: prod has drifted — verify live)
+```
+
+- **Path alias:** import via `@/*` (maps to `src/*`). Never use deep relative `../../..`.
+- **Mirror the role convention:** a UI route `app/<role>/x` is backed by `app/api/<role>/x`.
+- **Co-locate domain logic in `lib/<domain>/`**, not inside route handlers. Route handlers
+  stay thin: auth → authorize → call lib → shape response.
+
+---
+
+## 2. Supabase — the three clients (pick the right one)
+
+| Client | File | Runs in | Auth context | Use for |
+|--------|------|---------|--------------|---------|
+| Browser | `lib/supabase/client.ts` (`createClient`) | Client components | User session (cookies) | Realtime, optimistic UI; subject to RLS |
+| Server | `lib/supabase/server.ts` (`createClient`) | RSC / route handlers | User session via cookies | Default for API routes; subject to RLS |
+| Admin | `lib/supabase/admin.ts` (`createAdminClient` / `getAdminClientSafe`) | Server only | **Service role (bypasses RLS)** | Storage listing, cross-user reads, admin ops |
+
+Rules:
+- **Default to the user-scoped server client.** Reach for the admin client *only* when you
+  genuinely need to bypass RLS (e.g. Storage browsing, aggregations across users) — and
+  then **manually enforce `organization_id` scoping in the query**, because RLS no longer
+  protects you.
+- Use `getAdminClientSafe()` (returns `null` → respond `503 ADMIN_NOT_CONFIGURED_MESSAGE`)
+  rather than letting a missing env var throw a 500.
+- The browser client is a **module-level singleton** (`useRef(createClient())`). Don't call
+  `createClient()` on every render.
+
+### Standard API route handler shape
+
+```ts
+export const dynamic = "force-dynamic";
+
+export async function GET(request: Request) {
+  try {
+    const supabase = await createClient();
+    const { data: { user }, error: authError } = await supabase.auth.getUser();
+    if (authError || !user) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+
+    const { data: profile } = await supabase
+      .from("users").select("organization_id").eq("id", user.id).single();
+    const orgId = (profile as { organization_id: string | null } | null)?.organization_id;
+    if (!orgId) return NextResponse.json({ error: "No organization" }, { status: 400 });
+
+    // authorize by role (see §3), then scope EVERY query by orgId
+    // ... thin handler: delegate aggregation/shaping to lib/<domain>
+    return NextResponse.json({ /* ... */ });
+  } catch (err) {
+    console.error("<route> error:", err);
+    return NextResponse.json({ error: "Internal server error" }, { status: 500 });
+  }
+}
+```
+
+---
+
+## 3. Security & authorization
+
+- **Multi-tenant:** every table carries `organization_id`. Every read/write/aggregate must
+  be scoped to the caller's org. No exceptions, including admin-client queries.
+- **Role model:** roles live in `user_roles → roles(name)`. Normalize names with
+  `normalizeRoleName` (lowercase, spaces→`_`). Canonical roles: `admin, agent, team_leader`
+  (`tl`), `operations_manager`, `sales`, `sales_manager`, `qa`, `mis`, `dc`, and command
+  roles (`client_viewer`, `internal_operator`, `internal_admin`).
+- **Route gating** is declared in `lib/auth/config.ts` (`ROLE_ROUTE_ACCESS`) and enforced by
+  `middleware.ts`. When adding a role area, update that map — don't hand-roll checks.
+- **Defense in depth:** middleware gates navigation, RLS gates rows, and **API handlers must
+  re-check role/authorization** (don't trust the client). Middleware roles may come from the
+  JWT `app_roles` claim (cached ~1h) — so middleware is for UX redirects; **authoritative
+  access checks query the DB.**
+- **RLS authoring:** wrap auth helper calls in a scalar subselect so Postgres evaluates them
+  once (InitPlan), not per-row:
+  ```sql
+  -- GOOD: USING (organization_id = (SELECT public.get_my_organization_id()))
+  -- BAD:  USING (organization_id = public.get_my_organization_id())
+  ```
+  Helper functions are `SECURITY DEFINER` with `SET search_path = ''` and fully-qualified
+  names.
+- **Secrets:** only `NEXT_PUBLIC_*` env vars may reach the browser. `SUPABASE_SERVICE_ROLE_KEY`
+  and similar stay server-side. Never log tokens, keys, or full PII.
+- **Input:** validate/normalize all request bodies; sanitize search terms before `ilike`
+  (escape `%`/`_`, don't strip them). Strip read-only fields per role before `update`.
+
+---
+
+## 4. Performance (hard-won — respect these)
+
+- **Region colocation:** Vercel Functions run in **Mumbai (bom1)** to sit next to the Supabase
+  Mumbai project. Never reintroduce cross-region function placement.
+- **Avoid N+1 round-trips.** A request that loops a per-row Supabase/Storage call is a defect.
+  Batch: fetch sets with `.in(...)`, mint Storage URLs with `createSignedUrls` (plural), and
+  coalesce client lookups (see `lib/voice-recordings-client.ts`).
+- **Minimize sequential round-trips.** Prefer one Postgres RPC over many chained queries on
+  hot paths (see `get_my_profile_context` behind `/api/profile`). Use `Promise.all` for
+  independent queries.
+- **Indexing:** list queries filter by `organization_id`/`campaign_id`/`assigned_agent_id`
+  and sort by `created_at DESC` — rely on composite indexes in that shape. Search uses
+  `pg_trgm` GIN indexes. Add indexes via `CREATE INDEX CONCURRENTLY` (never lock a live table).
+- **Pagination:** PostgREST returns **max 1000 rows per request**. Any "fetch all"/export must
+  loop with `.range(offset, offset + PAGE - 1)` until a short page. Never assume one query
+  returns the full set.
+- **Counts:** `count: "exact"` is expensive — use it only when you actually need the total
+  (first page / filter change), not on every page step. Prefer `"estimated"` where acceptable.
+- **Select narrowly:** never `select("*")` on `leads` in list endpoints; request explicit
+  column lists. Heavy enrichment (names, recordings) should be lazy/batched, not inline in
+  list responses.
+- **Client caching:** use React Query (`usePaginatedListQuery`, `useCachedApiQuery`) with
+  `placeholderData: (prev) => prev` so tab revisits are instant. Memoize context values and
+  derived data.
+- **Bundle:** dynamically `import()` heavy libs (`xlsx`, `jszip`, `@react-pdf/renderer`) at the
+  point of use — never top-level import them into page components.
+
+---
+
+## 5. UI conventions
+
+- **Ant Design 5 is the primary component system** for dashboards/tables/forms; **shadcn/ui**
+  (`components/ui`, new-york style, lucide icons) + Tailwind for custom primitives. Don't mix
+  a third UI kit.
+- **Charts:** Recharts, wrapped in `ResponsiveContainer`. Reuse the established card styling
+  (rounded 16, soft shadow, `#f0f0f0` border).
+- **Tables:** server-driven pagination via `useServerTablePagination` +
+  `usePaginatedListQuery`; debounce search (~400ms); show skeletons/`Spin`, never block the
+  whole page on secondary data.
+- **Loading/empty/error states are mandatory** for every data view. Surface API errors with
+  AntD `message`; degrade gracefully (e.g. empty recordings) instead of crashing a row.
+- **No hardcoded/demo data in shipped views.** Dashboards must read real org-scoped data from
+  an API; placeholder arrays are not acceptable in production pages.
+- Keep components client/server-correct: `"use client"` only when needed (state, effects,
+  browser APIs). Data-heavy fetching belongs in route handlers + React Query, not RSC waterfalls.
+
+---
+
+## 6. Workflow & quality
+
+- Match the surrounding code's style, naming, and comment density. Comments explain **why**,
+  not what.
+- Before finishing: run `npx tsc --noEmit` and `npm run build` — both must pass.
+- For DB changes: provide idempotent SQL (`IF NOT EXISTS`, `CREATE OR REPLACE`), make it
+  zero-downtime, and pair it with a code fallback. Call out the apply order explicitly.
+- Keep handlers resilient: wrap in try/catch, log with a route tag, return typed JSON errors
+  with correct status codes (401/403/400/404/503/500).
+- Don't introduce new dependencies casually; prefer what's already in `package.json`.
