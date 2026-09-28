@@ -46,6 +46,9 @@ import { getLeadTableColumns } from "@/components/Leads/LeadTableColumns";
 import { buildLeadPayload, leadToFormValues } from "@/lib/leadPayload";
 import type { Lead } from "@/types/lead.types";
 import { LEAD_TAGGING_OPTIONS } from "@/types/lead.types";
+
+/** Lead table columns not shown on the agent campaign page. */
+const AGENT_HIDDEN_LEAD_COLUMNS = new Set(["phone", "direct_number", "company_number", "scored"]);
 import {
   CLOUDTHAT_AG_LEAD_TAGGING_OPTIONS,
   isCloudThatAgCampaign,
@@ -355,7 +358,7 @@ export default function AgentCampaignDetailPage() {
         onVoiceRecordingsChange: () => {
           void fetchLeads();
         },
-      }),
+      }).filter((col) => !AGENT_HIDDEN_LEAD_COLUMNS.has(String(col.key))),
     [page, pageSize, fetchLeads, handleBillableStatusChange, openEditLeadDrawer]
   );
 

@@ -45,6 +45,7 @@ import {
 } from "@/lib/cloudthat-ag";
 import { CampaignCqAnswerFields } from "@/components/Leads/CampaignCqAnswerFields";
 import { AgentCallLogCards, type AgentCallLogCardsHandle } from "@/components/Leads/AgentCallLogCards";
+import { AgentCallLogDetails } from "@/components/Leads/AgentCallLogDetails";
 import {
   digitsOnlyFormRules,
   normalizeDigitsOnly,
@@ -943,9 +944,14 @@ export function LeadForm({
               ) : undefined
             )}
           </Collapse>
-          {/* QA Audit & Status — bottom of Contact column (collapsed by default for agents) */}
+          {showAgentCallLogs && lead?.id && (
+            <Collapse defaultActiveKey={["call-logs"]} expandIconPosition="end" style={{ marginTop: 16 }}>
+              {renderSection("call-logs", "Call Logs", "📞", <AgentCallLogDetails leadId={lead.id} />)}
+            </Collapse>
+          )}
+          {/* QA Audit & Status — bottom of Contact column (open by default for every role) */}
           <Collapse
-            defaultActiveKey={isAgentEntry ? [] : ["audit"]}
+            defaultActiveKey={["audit"]}
             expandIconPosition="end"
             style={{ marginTop: 16 }}
           >

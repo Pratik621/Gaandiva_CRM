@@ -8,8 +8,8 @@ import { findCallLogsLeadForAgent } from "@/lib/call-logs-leads";
 
 export const dynamic = "force-dynamic";
 
-const CALL_LOG_COLUMNS =
-  "id, lead_id, agent_id, campaign_id, call_started_at, call_date, call_sequence, duration_seconds, duration_text, status";
+// "*" so optional columns (caller_name, did_number, disposition) are returned when present.
+const CALL_LOG_COLUMNS = "*";
 
 /**
  * Agent-only call logs for a lead. Auth + lead access use the main Gaandiva DB;
