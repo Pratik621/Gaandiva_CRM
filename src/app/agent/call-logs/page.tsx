@@ -125,7 +125,13 @@ export default function AgentCallLogsPage() {
             <ArrowLeftOutlined /> Back to Dashboard
           </Link>
           <Typography.Title level={3} style={{ margin: 0, fontWeight: 600 }}>
-            Call Logs
+            <Link
+              href="/agent/call-logs/cdr"
+              title="Import / export dialer call logs"
+              style={{ color: "inherit", textDecoration: "none" }}
+            >
+              Call Logs
+            </Link>
           </Typography.Title>
           <Typography.Text type="secondary">
             All calls you have logged across your leads.

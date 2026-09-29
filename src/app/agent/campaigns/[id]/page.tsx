@@ -116,6 +116,7 @@ export default function AgentCampaignDetailPage() {
   const [campaign, setCampaign] = useState<Campaign | null>(null);
   const [leads, setLeads] = useState<Lead[]>([]);
   const [files, setFiles] = useState<CampaignFile[]>([]);
+  const [leadActivationEnabled, setLeadActivationEnabled] = useState(false);
   const [loading, setLoading] = useState(true);
   const [leadDrawerOpen, setLeadDrawerOpen] = useState(false);
   const [creatingLead, setCreatingLead] = useState(false);
@@ -179,6 +180,7 @@ export default function AgentCampaignDetailPage() {
         creatives_url: campaignJson.campaign.creatives_url ?? null,
         campaign_questions: campaignJson.campaign.campaign_questions ?? [],
       });
+      setLeadActivationEnabled(campaignJson.campaign.lead_activation_enabled === true);
       setFiles(campaignJson.files ?? []);
     } catch (err) {
       message.error(
@@ -753,7 +755,19 @@ export default function AgentCampaignDetailPage() {
 
         <Col xs={24} lg={10}>
           <Card
-            title="Campaign details"
+            title={
+              leadActivationEnabled && id ? (
+                <Link
+                  href={`/agent/campaigns/${id}/lead-activation`}
+                  title="Activate / deactivate leads"
+                  style={{ color: "inherit", textDecoration: "none" }}
+                >
+                  Campaign details
+                </Link>
+              ) : (
+                "Campaign details"
+              )
+            }
             style={{ marginBottom: 24, borderRadius: 8, border: "1px solid #f0f0f0", boxShadow: "0 1px 2px rgba(0,0,0,0.03)" }}
             bodyStyle={{ padding: "20px 24px" }}
           >
@@ -1058,7 +1072,15 @@ export default function AgentCampaignDetailPage() {
         onClose={closeLeadDrawer}
         destroyOnClose
         maskClosable
-        styles={{ body: LEAD_DRAWER_BODY_STYLE }}
+        styles={{
+          body: LEAD_DRAWER_BODY_STYLE,
+          // Blur the leads table behind the open drawer.
+          mask: {
+            backdropFilter: "blur(4px)",
+            WebkitBackdropFilter: "blur(4px)",
+            backgroundColor: "rgba(15, 23, 42, 0.25)",
+          },
+        }}
         footer={
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 12 }}>
             <Button onClick={closeLeadDrawer}>

@@ -168,6 +168,8 @@ export async function GET(
       (enrichedCampaign as Record<string, unknown>).campaign_questions = hideCallLogsDemoQuestions(
         normalizeCampaignQuestions((campaign as { campaign_questions?: unknown }).campaign_questions)
       );
+      // Enables the "Campaign details" link to the lead activation page.
+      (enrichedCampaign as Record<string, unknown>).lead_activation_enabled = true;
     }
 
     return NextResponse.json({ campaign: enrichedCampaign, files: filesWithUrls });

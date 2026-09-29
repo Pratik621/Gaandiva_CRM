@@ -15,6 +15,7 @@ import { normalizeBillableStatus } from "@/lib/leads/billable-status";
 import {
   createCallLogsLead,
   listCallLogsLeads,
+  parseCallLogsLeadState,
   resolveCallLogsLeadContext,
   updateCallLogsLead,
 } from "@/lib/call-logs-leads";
@@ -102,7 +103,9 @@ export async function GET(
     });
     if (callLogsCtx instanceof NextResponse) return callLogsCtx;
     if (callLogsCtx) {
-      const { data, error, count } = await listCallLogsLeads(callLogsCtx, offset, limit);
+      // ?state=active (default, main Leads table) | inactive | all (lead activation page)
+      const state = parseCallLogsLeadState(new URL(request.url).searchParams.get("state"));
+      const { data, error, count } = await listCallLogsLeads(callLogsCtx, offset, limit, state);
       if (error) {
         return NextResponse.json({ error: error.message }, { status: 500 });
       }

@@ -15,6 +15,7 @@ type CallLogRow = {
   caller_name?: string | null;
   did_number?: string | null;
   disposition?: string | null;
+  system_id?: string | null;
 };
 
 function formatDuration(row: CallLogRow): string {
@@ -42,12 +43,12 @@ export function AgentCallLogDetails({ leadId }: { leadId: string }) {
       .then((json) => {
         if (cancelled) return;
         const list = ((json?.callLogs ?? []) as CallLogRow[]).slice();
-        // Oldest first (Call 1, Call 2, ...) like the call sheet.
+        // Same order as the call sheet: Call 1, Call 2, ... (call number), then
+        // calls without a number (added in the app) by time.
         list.sort(
           (a, b) =>
-            (a.call_date ?? "").localeCompare(b.call_date ?? "") ||
-            (a.call_sequence ?? 0) - (b.call_sequence ?? 0) ||
-            (a.call_started_at ?? "").localeCompare(b.call_started_at ?? "")
+            (a.call_sequence ?? Number.MAX_SAFE_INTEGER) - (b.call_sequence ?? Number.MAX_SAFE_INTEGER) ||
+            (a.call_started_at ?? a.call_date ?? "").localeCompare(b.call_started_at ?? b.call_date ?? "")
         );
         setRows(list);
       })
@@ -64,6 +65,7 @@ export function AgentCallLogDetails({ leadId }: { leadId: string }) {
 
   const columns: ColumnsType<CallLogRow> = [
     { title: "#", key: "n", width: 44, render: (_v, _r, i) => i + 1 },
+    { title: "System ID", dataIndex: "system_id", key: "system_id", render: (v) => v || "—" },
     { title: "Agent Name", dataIndex: "caller_name", key: "caller_name", render: (v) => v || "—" },
     { title: "DID Number", dataIndex: "did_number", key: "did_number", render: (v) => v || "—" },
     { title: "Call Date", key: "call_date", render: (_v, r) => formatDate(r) },

@@ -267,18 +267,60 @@ export async function resolveCallLogsLeadContext(args: {
   };
 }
 
+export type CallLogsLeadState = "active" | "inactive" | "all";
+
+export function parseCallLogsLeadState(raw: string | null | undefined): CallLogsLeadState {
+  return raw === "inactive" || raw === "all" ? raw : "active";
+}
+
+/** Postgres "column does not exist" — is_active migration not run yet. */
+function isMissingIsActiveColumn(error: { code?: string; message?: string } | null): boolean {
+  return !!error && (error.code === "42703" || /is_active/i.test(error.message ?? ""));
+}
+
 export async function listCallLogsLeads(
   ctx: CallLogsLeadContext,
   offset: number,
-  limit: number
+  limit: number,
+  state: CallLogsLeadState = "active"
 ) {
-  return ctx.db
+  const run = (withState: boolean) => {
+    let query = ctx.db
+      .from("leads")
+      .select("*", { count: "exact" })
+      .eq("campaign_id", ctx.campaignId)
+      .eq("assigned_agent_id", ctx.agentId);
+    if (withState && state !== "all") query = query.eq("is_active", state === "active");
+    return query.order("created_at", { ascending: false }).range(offset, offset + limit - 1);
+  };
+
+  const result = await run(true);
+  // Before 20260929050000_leads_is_active.sql runs every lead counts as active.
+  if (isMissingIsActiveColumn(result.error)) {
+    if (state === "inactive") return { data: [], error: null, count: 0 };
+    return run(false);
+  }
+  return result;
+}
+
+/** Activate / deactivate this agent's leads in the campaign. Returns rows changed. */
+export async function setCallLogsLeadsActive(
+  ctx: CallLogsLeadContext,
+  leadRowIds: string[],
+  active: boolean
+): Promise<number> {
+  const { data, error } = await ctx.db
     .from("leads")
-    .select("*", { count: "exact" })
+    .update({ is_active: active })
+    .in("id", leadRowIds)
     .eq("campaign_id", ctx.campaignId)
     .eq("assigned_agent_id", ctx.agentId)
-    .order("created_at", { ascending: false })
-    .range(offset, offset + limit - 1);
+    .select("id");
+  if (isMissingIsActiveColumn(error)) {
+    throw new Error("Run supabase-call-logs/migrations/20260929050000_leads_is_active.sql first");
+  }
+  if (error) throw error;
+  return (data ?? []).length;
 }
 
 export type CallLogsWriteResult =
